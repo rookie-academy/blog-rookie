@@ -1,0 +1,45 @@
+User-agent: *
+Disallow: /OLD/
+Disallow: /assets/
+Allow: /assets/*.pdf$
+Allow: /assets/*.jpeg$
+Allow: /assets/*.jpg$
+
+User-agent: Baiduspider
+Disallow: /Zh-Hk/
+Disallow: /OLD/
+Disallow: /assets/
+Allow: /assets/*.pdf$
+Allow: /assets/*.jpeg$
+Allow: /assets/*.jpg$
+
+User-agent: HaoSouSpider
+Disallow: /Zh-Hk/
+Disallow: /OLD/
+Disallow: /assets/
+Allow: /assets/*.pdf$
+Allow: /assets/*.jpeg$
+Allow: /assets/*.jpg$
+
+User-agent: Sogou web spider
+Disallow: /Zh-Hk/
+Disallow: /OLD/
+Disallow: /assets/
+Allow: /assets/*.pdf$
+Allow: /assets/*.jpeg$
+Allow: /assets/*.jpg$
+
+User-agent: Sogou spider2
+Disallow: /Zh-Hk/
+Disallow: /OLD/
+Disallow: /assets/
+Allow: /assets/*.pdf$
+Allow: /assets/*.jpeg$
+Allow: /assets/*.jpg$
+
+User-agent: EtaoSpider
+Disallow: /
+
+DaumWebMasterTool:fe46641ef2e4f3f25544ad9d70c6029df24dd184fad54154abaa3c263cf5a09a:443TDua2oBhkmf8nLnc1jg==
+
+Sitemap: https://rookieacademy.org/sitemap.xml
