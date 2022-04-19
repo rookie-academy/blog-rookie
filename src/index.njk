@@ -9,12 +9,7 @@ layout: base.njk
             <p>The key to success will be lifelong learning.</p><h1>Having a <span>real good rapport</span> with your children!</h1>
             <div class="hero-cta">
                 <a class="primary-cta" href="join-us/">BOOK NOW</a>
-                <a class="view-blog" href="/blog/">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                    <path id="Icon_material-library-books" data-name="Icon material-library-books" d="M6,9H3V30a3.009,3.009,0,0,0,3,3H27V30H6ZM30,3H12A3.009,3.009,0,0,0,9,6V24a3.009,3.009,0,0,0,3,3H30a3.009,3.009,0,0,0,3-3V6A3.009,3.009,0,0,0,30,3ZM28.5,16.5h-15v-3h15Zm-6,6h-9v-3h9Zm6-12h-15v-3h15Z" transform="translate(-3 -3)"/>
-                    </svg>
-                    View our blog
-                </a>
+                
             </div>
         </div>
         <img class="hero-img" src="/assets/service-process-svg.svg" alt="step-by-step-guideline-for-seeking-consultation">
@@ -47,6 +42,27 @@ layout: base.njk
                 <p>in support us to provide the very best for Hong Kong's young children wiith special needs.</p>
             </div>
         </div>
+    </div>
+</section>
+<section class="blog">
+    <div class="container">
+        <h1 class="blog-caption">Visit RookieAcademy's Blog</h1>
+        <div class="punchline">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                <path id="Icon_material-library-books" data-name="Icon material-library-books" d="M6,9H3V30a3.009,3.009,0,0,0,3,3H27V30H6ZM30,3H12A3.009,3.009,0,0,0,9,6V24a3.009,3.009,0,0,0,3,3H30a3.009,3.009,0,0,0,3-3V6A3.009,3.009,0,0,0,30,3ZM28.5,16.5h-15v-3h15Zm-6,6h-9v-3h9Zm6-12h-15v-3h15Z" transform="translate(-3 -3)"/>
+            </svg>
+            <h2>"Blogging Is Fun"</h2>
+        </div>
+        <p>I use this space to document my adventures in child development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
+        <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+        <ul class="featured">
+    
+            {% for post in collections.featured | reverse %}
+                {% include "article-snippet.njk" %}
+            {% endfor %}
+
+        </ul>
+        <a class="view-blog" href="/blog/">Most recent articles</a>
     </div>
 </section>
 <section class="core-value-section" id="our-core-value">
