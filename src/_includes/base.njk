@@ -19,7 +19,11 @@
         href="/Zh-Hk/%E9%A6%96%E9%A0%81/" />
 </head>
 <body>
-    {{ content | safe }}
+    {% include "header.njk" %}
+    <main>
+        {{ content | safe }}
+    </main>
+    {% include "footer.njk" %}
     <script>
         const menu = document.querySelector('.menu')
         const close = document.querySelector('.close')

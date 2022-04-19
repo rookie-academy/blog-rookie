@@ -227,15 +227,21 @@ section.hero {
             border-radius: 5em;
         }
 
-        .watch-video {
+        .view-blog {
             display: block;
-            margin-top: 1.3em;
+            margin-top: 1em;
             text-decoration: none;
-            color: black;
-            img {
+            color: var(--primary-color);
+            padding: .3em 1.5em;
+            border-radius: 5em;
+            border: var(--primary-color) solid 1px;
+            font-size: 1rem;
+            svg {
                 position: relative;
                 top: .4em;
                 right: .8em;
+                width: 1.5em;
+                fill: var(--primary-color);
             }
         }
     }
@@ -808,7 +814,7 @@ nav {
 }
 
 @media only screen and (min-width: 1200px) {
-    .wrapper {
+    main {
         
         margin: 0 auto;
     }
