@@ -617,6 +617,12 @@ nav {
 
 
 @media only screen and (min-width: 920px) {
+    .snippet {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 3em;
+        margin: 3em 1em;
+    }
     .menu {
         display: none;
     }
@@ -1523,7 +1529,7 @@ section.blog {
         background: var(--primary-color);
         padding: .3em .9em;
         border-radius: 5em;
-        margin-bottom: 2em;
+        margin: 2em 0;
     }
 }
 
@@ -1536,9 +1542,9 @@ section.blog {
 }
 
 .main-article {
-    margin-bottom: 3rem;
+    margin: 3em 2em;
     img {
-        width: 100%;
+        max-width: 100%;
     }
     figcaption {
         margin: 1rem 0;
@@ -1549,4 +1555,16 @@ section.blog {
   }
 
 
+
+img, picture {
+    max-width: 100%;
+}
+
+.articles__list {
+    margin: 3em 1em;
+}
+
+h1.section-title {
+    margin-left: 1em;
+}
 

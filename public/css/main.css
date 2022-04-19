@@ -668,6 +668,14 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 920px) {
+  .snippet {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    gap: 3em;
+    margin: 3em 1em;
+  }
   .menu {
     display: none;
   }
@@ -1528,7 +1536,7 @@ section.blog .view-blog {
   background: var(--primary-color);
   padding: .3em .9em;
   border-radius: 5em;
-  margin-bottom: 2em;
+  margin: 2em 0;
 }
 
 .article-title {
@@ -1540,16 +1548,28 @@ section.blog .view-blog {
 }
 
 .main-article {
-  margin-bottom: 3rem;
+  margin: 3em 2em;
   font-size: 1.3rem;
 }
 
 .main-article img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .main-article figcaption {
   margin: 1rem 0;
   color: #A3A3A3;
+}
+
+img, picture {
+  max-width: 100%;
+}
+
+.articles__list {
+  margin: 3em 1em;
+}
+
+h1.section-title {
+  margin-left: 1em;
 }
 /*# sourceMappingURL=main.css.map */
