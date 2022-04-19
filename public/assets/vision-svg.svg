@@ -1,0 +1,16 @@
+<svg id="Group_2679" data-name="Group 2679" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="199" height="199" viewBox="0 0 199 199">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="199" height="199" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_41" data-name="Group 41" clip-path="url(#clip-path)">
+    <path id="Path_57" data-name="Path 57" d="M60.828,12.518A42.63,42.63,0,0,0,18.247,55.1V67.184H29.762V55.1A31.1,31.1,0,0,1,60.828,24.033h8.1V12.518ZM180.339,139.432v12.38a31.1,31.1,0,0,1-31.066,31.066h-8.1v11.515h8.1a42.631,42.631,0,0,0,42.58-42.581v-12.38ZM29.762,151.812v-12.38H18.247v12.38a42.631,42.631,0,0,0,42.581,42.581h8.1V182.879h-8.1a31.1,31.1,0,0,1-31.066-31.066M149.274,12.518h-8.1V24.033h8.1A31.1,31.1,0,0,1,180.339,55.1V67.184h11.515V55.1a42.63,42.63,0,0,0-42.58-42.581" transform="translate(-5.551 -3.808)" fill="#292626"/>
+    <path id="Path_58" data-name="Path 58" d="M166.42,129.356a38.973,38.973,0,1,1-38.973-38.973,38.973,38.973,0,0,1,38.973,38.973" transform="translate(-26.913 -27.494)" fill="#388254"/>
+    <path id="Path_59" data-name="Path 59" d="M39.463,130.1c1.14-1.912,25.9-41.776,73.518-41.631,47.951.147,72.472,40.715,73.518,42.516-1.259,2.2-24.672,41.5-70.861,42.811A84.806,84.806,0,0,1,39.463,130.1Z" transform="translate(-12.004 -26.913)" fill="none" stroke="#535353" stroke-miterlimit="10" stroke-width="11.457"/>
+    <path id="Path_60" data-name="Path 60" d="M162.764,132.2a32.478,32.478,0,1,1-32.478-32.478A32.478,32.478,0,0,1,162.764,132.2" transform="translate(-29.753 -30.334)" fill="#fff"/>
+    <path id="Path_61" data-name="Path 61" d="M152.461,140.2a14.172,14.172,0,1,1-14.172-14.172A14.172,14.172,0,0,1,152.461,140.2" transform="translate(-37.756 -38.337)" fill="#388254"/>
+    <path id="Path_62" data-name="Path 62" d="M132.985,124.414a7.086,7.086,0,1,1-7.086-7.086,7.086,7.086,0,0,1,7.086,7.086" transform="translate(-36.142 -35.691)" fill="#fff"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="7.086" cy="7.086" r="7.086" transform="translate(82.671 81.637)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.106"/>
+  </g>
+</svg>
