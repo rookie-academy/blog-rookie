@@ -1,6 +1,9 @@
 ---
 title: Rookie Academy | 課程簡介
 layout: base.njk
+description: 協助學童解決學習難題和心理情緒，以及行為上的表現，為學童度身訂做適合他們的讀書方法，減輕家長的困惑和苦惱
+canonical: https://rookieacademy.org/%E8%AA%B2%E7%A8%8B%E7%B0%A1%E4%BB%8B/
+keywords: 
 ---
 <section class="programmes-list">
     <div class="container">
@@ -15,43 +18,43 @@ layout: base.njk
     <div class="container">
         <h1 class="section-title">皇牌特色課</h1>
         <ul role="list">
-            {% for class in collections.ace %}
+            {% for class in collections.ace | reverse %}
                 {% include "class-snippet.njk" %}
             {% endfor %}
         <ul>
         <h1 class="section-title">中文學習範疇</h1>
         <ul role="list">
-            {% for class in collections.chinese %}
+            {% for class in collections.chinese | reverse %}
                 {% include "class-snippet.njk" %}
             {% endfor %}
         <ul>
         <h1 class="section-title">英文學習範疇</h1>
         <ul role="list">
-            {% for class in collections.english %}
+            {% for class in collections.english | reverse %}
                 {% include "class-snippet.njk" %}
             {% endfor %}
         <ul>
         <h1 class="section-title">幼稚園、小學數學專科</h1>
         <ul role="list">
-            {% for class in collections.math %}
+            {% for class in collections.math | reverse %}
                 {% include "class-snippet.njk" %}
             {% endfor %}
         <ul>
         <h1 class="section-title">小學呈分試特訓班</h1>
         <ul role="list">
-            {% for class in collections.tsa %}
+            {% for class in collections.tsa | reverse %}
                 {% include "class-snippet.njk" %}
             {% endfor %}
         <ul>
         <h1 class="section-title">幼稚園能力提升、升小一面試</h1>
         <ul role="list">
-            {% for class in collections.kindergarten %}
+            {% for class in collections.kindergarten | reverse %}
                 {% include "class-snippet.njk" %}
             {% endfor %}
         <ul>
         <h1 class="section-title">其他課程</h1>
         <ul role="list">
-            {% for class in collections.other %}
+            {% for class in collections.other | reverse %}
                 {% include "class-snippet.njk" %}
             {% endfor %}
         <ul>
@@ -61,7 +64,7 @@ layout: base.njk
     <div class="container">
         <h1 class="section-title">SEN特殊教育需要課程</h1>
         <ul role="list">
-            {% for class in collections.sen %}
+            {% for class in collections.sen | reverse %}
                 {% include "class-snippet.njk" %}
             {% endfor %}
         <ul>

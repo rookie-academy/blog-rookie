@@ -1,1 +1,0 @@
-# rookie-academy.github.io
