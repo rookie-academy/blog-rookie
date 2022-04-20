@@ -1,0 +1,58 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: "public/assets/uploads"
+public_folder: "/assets/uploads"
+collections:
+  - name: "blog"
+    label: "新增文章"
+    folder: "src/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "標題", name: "title", widget: "string" }
+      - { label: "典範連結", name: "canonical", widget: "string" }
+      - { label: "簡介", name: "description", widget: "string" }
+      - { label: "關鍵字眼", name: "keywords", widget: "string" }
+      - { label: "作者", name: "author", widget: "string" }
+      - { label: "發表日期", name: "date", widget: "datetime" }
+      - { label: "標記;post;featured", name: "tags", widget: "list", default: ["post"] }
+      - { label: "上傳圖片", name: "image", widget: "image" }
+      - { label: "圖片標題", name: "imageAlt", widget: "string" }
+      - { label: "文章內容", name: "body", widget: "markdown" }
+      - { label: "上載單張", name: "leaflet", widget: "string" }
+  - name: "class"
+    label: "新增課程"
+    folder: "src/class"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "課程名稱", name: "title", widget: "string" }
+      - { label: "典範連結", name: "canonical", widget: "string" }
+      - { label: "課程簡介", name: "description", widget: "string" }
+      - { label: "關鍵字眼", name: "keywords", widget: "string" }
+      - { label: "作者", name: "author", widget: "string" }
+      - { label: "發表日期", name: "date", widget: "datetime" }
+      - { label: "標記;ace;class;chinese;english;math;tsa;kindergarten;other;sen;popular", name: "tags", widget: "list", default: ["class"] }
+      - { label: "上傳圖片", name: "image", widget: "image" }
+      - { label: "圖片標題", name: "imageAlt", widget: "string" }
+      - { label: "文章內容", name: "body", widget: "markdown" }
+      - { label: "上載單張", name: "leaflet", widget: "string" }
+  - name: "card"
+    label: "新增服務"
+    folder: "src/class"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "服務標題", name: "title", widget: "string" }
+      - { label: "典範連結", name: "canonical", widget: "string" }
+      - { label: "服務簡介", name: "description", widget: "string" }
+      - { label: "關鍵字眼", name: "keywords", widget: "string" }
+      - { label: "作者", name: "author", widget: "string" }
+      - { label: "發表日期", name: "date", widget: "datetime" }
+      - { label: "標記", name: "tags", widget: "list", default: ["card"] }
+      - { label: "上傳圖片", name: "image", widget: "image" }
+      - { label: "圖片標題", name: "imageAlt", widget: "string" }
+      - { label: "文章內容", name: "body", widget: "markdown" }
+      - { label: "上載單張", name: "leaflet", widget: "string" }

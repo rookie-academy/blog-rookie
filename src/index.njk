@@ -28,7 +28,7 @@ keywords:
         <p>Rookie Academy (RA) 位於屯門和觀塘。我們的團隊由跨業界團隊合作統籌及主理特殊教育需要(SEN)的強效訓練課程， 主要教學及訓練對象由2歲至長者，相關課程包括至尊感覺統合服務、中文讀寫、英文讀寫、數理邏輯、行為管理、專注力提升、社交溝通技巧、情緒及心理輔導、資優課程、言語治療、密集式成長訓練服務等。</p>
         <p>機構宗旨為「關愛學生，使他們發展才能」。</p>
         <ul role="list" class="card">
-            {% for card in collections.card %}
+            {% for card in collections.card | reverse %}
                 {% include "card-snippet.njk" %}
             {% endfor %}
         </ul>
