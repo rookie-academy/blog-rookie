@@ -113,7 +113,7 @@ keywords:
     </div>
 </section>
 <section class="services-section" id="our-services">
-    <div class="container">
+    <div class="container" style="list-style:none;">
         <h1>我們的服務</h1>
         <div class="punchline">
             <img src="/assets/service-svg.svg" alt="our-service-img">
@@ -121,6 +121,11 @@ keywords:
         </div>
         <p>我們致力於提高教學質素及教授學生應對考試的策略。</p>
         <p>我們的課程多元化，能照顧不同學生的學習需要，讓他們由難以投入學習，到漸漸喜歡學習，至自主學習，並加以應用。我們致力為不同學生度身訂製適合他們的學習課程，歡迎預約面見時間。憑藉優質的教學質素及穩健的拓展策略，我們成為知名度最高的教育機構之一，深受學生和家長喜愛。</p>
+        <h2>最受歡迎課程</h2>
+        {% for class in collections.popular %}
+            {% include "class-snippet.njk" %}
+        {% endfor %}
+        <br>
         <a class="more-info-cta" href="/課程簡介/">閱讀更多</a>
     </div>
 </section>

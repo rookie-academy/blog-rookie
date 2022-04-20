@@ -1585,6 +1585,7 @@ h1.section-title {
 
 .snippet__title {
     grid-area: title;
+    color:var(--primary-color);
 }
 .snippet__meta {
     grid-area: meta;
@@ -1603,6 +1604,13 @@ h1.section-title {
         a {
             text-decoration: none;
             color: white;
+        }
+        
+        li {
+            ::before {
+                content: none;
+                
+            }
         }
     }
 }

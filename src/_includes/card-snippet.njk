@@ -1,7 +1,7 @@
 <li>
     <article class="snippet">
-        <h3 class="snippet__title">{{ card.data.title }}</h3>
+        <a href="{{ card.url }}"><h3 class="snippet__title" style="text-shadow: var(--primary-color) .3em .3em 1em">{{ card.data.title }}</h3></a>
         <p class="snippet__body">{{ card.data.description }}</p> 
-        <a href="{{ card.url }}"><img src="{{ card.data.image }}" alt="{{ card.data.imageAlt }}" class="snippet__image"></a> 
+        <img src="{{ card.data.image }}" alt="{{ card.data.imageAlt }}" class="snippet__image"> 
     </article>  
 </li>
