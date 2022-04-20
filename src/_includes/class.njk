@@ -1,6 +1,21 @@
+---
+layout: 'base.njk'
+---
 
-<div class="rtable-div-row">
-    <div class="rtable-cell">{{ class.data.title }}</div>
-    <div class="rtable-cell">{{ class.data.description }}</div>
-    <div class="rtable-cell"><a href="{{class.data.leafet}}" target="_blank">閱讀更多</a></div>
+<article class="main-article">
+<div class="container container--narrow flow">
+  
+    <h1 class="article-title">
+      {{ title }}
+    </h1>
+    <img src="{{ image }}" alt="{{ imageAlt }}">
+    <figcaption>
+      {{ imageAlt }}
+    </figcaption>
+    
+    {{ content | safe }}
+
+    <a href="{{ leafet }}">下載單張</a>
+  
 </div>
+</article>

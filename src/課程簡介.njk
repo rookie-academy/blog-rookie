@@ -13,264 +13,58 @@ layout: base.njk
 
 <section class="ordinaryschool">
     <div class="container">
-        <div class="rtable">
-            <div class="rtable-caption">皇牌特色課</div>
-            <div class="rtable-head-row">
-                <div class="rtable-cell">課程名稱</div>
-                <div class="rtable-cell desc">簡介</div>
-                <div class="rtable-cell">詳細資料</div>
-            </div>
+        <h1 class="section-title">皇牌特色課</h1>
+        <ul role="list">
             {% for class in collections.ace %}
-                {% include "class.njk" %}
+                {% include "class-snippet.njk" %}
             {% endfor %}
-            <div class="rtable-div-row">
-                <div class="rtable-cell">中文/英文識字計劃</div>
-                <div class="rtable-cell">建立生活有關主題學習廣泛題材，增強學童的識字量，加強說話表達能力及書面語的理解能力。透過全語文故事講讀和富趣味的遊戲學習元素，又利用圖像記憶，把抽象的文字符號變得易讀易明，鼓勵閱讀文章的自學習慣，提升自信心及學習語文的興趣。</div>
-                <div class="rtable-cell"><a href="/assets/中文_英文識字計劃.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">英文寫作六步曲拔尖計劃</div>
-                <div class="rtable-cell">學生在英文寫作方面，肯定存在不同的程度差異，有見及此，【英文寫作六步曲拔尖計劃】引入外國教材，適合勇於挑戰自我的小勇士，真正提升寫作能力，範圍涵蓋聽講、識字、文法、概念圖、句子結構、讀寫。根據書內字眼，每個課題都包含此6個教學部分：
-                    <br>  1. Word practice
-                    <br>  2. Look and write the word
-                    <br>  3. Grammar practice
-                    <br>  4. Writing practice
-                    <br>  5. Your idea web
-                    <br>  6. Your writing</div>
-                <div class="rtable-cell"><a href="/assets/英文寫作六步曲拔尖計劃.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">英文特色課程</div>
-                <div class="rtable-cell">最近見家長傾向為小朋友增值，為未來舖路，淘醉學習此類考試課程，我們非常欣喜這些小朋友絕多數都是喜歡英文，甚至對英文學習培養了濃厚的興趣。對的，在學習這些課程時，我們都期望小朋友的學習態度良好、專注耐力強。如果小朋友本身有良好的記憶力，就更加事半功倍，進步得更快呢！</div>
-                <div class="rtable-cell"><a href="/assets/英文特色課程.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">Oral Bootcamp 跟外籍老師說英文</div>
-                <div class="rtable-cell">課程由經驗豐富的老師帶領，在輕鬆愉快的氛圍中與學生以英文交流，適合幼小學生加入。還提供一對一的私人課程。授課方式為現場授課、上門授課和在線授課。</div>
-                <div class="rtable-cell"><a href="/assets/Oral-Bootcamp.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-        </div>
-        <div class="rtable">
-            <div class="rtable-caption">中文學習範疇</div>
-            <div class="rtable-head-row">
-                <div class="rtable-cell">課程名稱</div>
-                <div class="rtable-cell desc">簡介</div>
-                <div class="rtable-cell">詳細資料</div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">中文閱讀理解</div>
-                <div class="rtable-cell">從閱讀文章到增加字庫，豐富文章寫作內容；鍛練寫文，提升組織段落能力；操練應識答題技能；熟識不同體裁，例如議論文，邀請卡、抒情文，增強語感及敏感度；深層次理解文章：複述、解釋、重整、伸展、評鑒、創意；分析文體和文章的特性和結構，有系統和組織地完成一篇文章。</div>
-                <div class="rtable-cell"><a href="/assets/中文閱讀理解_中文寫作.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">中文寫作</div>
-                <div class="rtable-cell">從閱讀文章到增加字庫，豐富文章寫作內容；鍛練寫文，提升組織段落能力；操練應識答題技能；熟識不同體裁，例如議論文，邀請卡、抒情文，增強語感及敏感度；深層次理解文章：複述、解釋、重整、伸展、評鑒、創意；分析文體和文章的特性和結構，有系統和組織地完成一篇文章。</div>
-                <div class="rtable-cell"><a href="/assets/中文閱讀理解_中文寫作.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-        </div>
-        <div class="rtable">
-            <div class="rtable-caption">英文學習範疇</div>
-            <div class="rtable-head-row">
-                <div class="rtable-cell">課程名稱</div>
-                <div class="rtable-cell desc">簡介</div>
-                <div class="rtable-cell">詳細資料</div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">閱讀理解</div>
-                <div class="rtable-cell">1.増多英文字量
-                    <br>2.提升文章的理解能力
-                    <br>3.讓學員更易理解文章內容
-                    <br>4.有利提高測考試卷的分數</div>
-                <div class="rtable-cell"><a href="/assets/閱讀理解、創意寫作.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">寫作訓練</div>
-                <div class="rtable-cell">1.懂得篩選貼題應試資料
-                    <br>2.加強由看圖作句到段落寫作的技巧
-                    <br>3.透過深層閱讀不同文類內容，認識到不同的文類風格
-                    <br>4.引導學生創作自己的故事，培養閱讀和寫作的樂趣</div>
-                <div class="rtable-cell"><a href="/assets/閱讀理解、創意寫作.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">認字故事</div>
-                <div class="rtable-cell">英國薩塞克斯大學霍絲特博士發現：<br>
-                    多次閱讀同一個故事，識字會比每天說一個新的故事多。
-                    <br>
-                    認字策略錦囊：<br>
-                    孩子喜歡做甚麼事情?要先了解他們的興趣，再以不同教材 (如短片、圖卡等) 和遊戲學習輔助教學，長輩長期陪讀，才能引入學習動機，繼而主動認識英文生字、投入認字和朗讀的以及樂趣。</div>
-                <div class="rtable-cell"><a href="/assets/認字識讀、Phonics拼音串字.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">Phonics拼音串字</div>
-                <div class="rtable-cell">1.拼音串寫，幫助默字
-                    <br>2.增強拼讀的技巧，有趣學英語
-                    <br>3.學習學習內容：Alphabets, Short Vowels, Long Vowels, Consonant Blends, Letter Combinations</div>
-                <div class="rtable-cell"><a href="/assets/認字識讀、Phonics拼音串字.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">文法訓練班</div>
-                <div class="rtable-cell">1.針對考試必要文法 
-                    <br>2.提升對文法的理解和應用
-                    <br>3.學生由淺入深打好基礎，並應用所學</div>
-                <div class="rtable-cell"><a href="/assets/文法、聽說.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">聽說班</div>
-                <div class="rtable-cell">1.每週一個主題，多樣化的英文字詞彙特色
-                    <br>2.透過故事或報章閱讀，培養閱讀習慣，加強發音、拼讀字詞的能力
-                    <br>3.運用問答法 (Question & Answer) 
-                    <br>4.增加自我認識和溝通技巧，面試成功的機會
-                    <br>5.透過說述故事 (Storytelling) 掌握多變的語調、建立說話組織能力、豐富說話內容
-                    <br>6.提升說話技巧，讓學生大膽而有信心地使用英語表達和溝通
-                    <br>7.對答流利，提高口試卷的分數</div>
-                <div class="rtable-cell"><a href="/assets/文法、聽說.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-        </div>
-        <div class="rtable">
-            <div class="rtable-caption">幼稚園、小學數學專科</div>
-            <div class="rtable-head-row">
-                <div class="rtable-cell">課程名稱</div>
-                <div class="rtable-cell desc">簡介</div>
-                <div class="rtable-cell">詳細資料</div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">幼稚園K1-3</div>
-                <div class="rtable-cell" style="width:700px;">
-                    <ul>
-                        <li>激發思考</li>
-                        <li>圖形題、位置與方位、序列概念、單雙數、</li>
-                        <li>年月日、時分秒、順數、倒數、直線、曲線、</li>
-                        <li>加減數字題、點連點空間認知、數量與組合、</li>
-                        <li>排序規律、看寫圖表、立體形狀、高矮概念、</li>
-                        <li>中國數字一至十、先後次序、幾何形體等等。</li>
-                    </ul>
-                </div>
-                <div class="rtable-cell"><a href="/assets/幼稚園、小學數學專科.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">小學 P1-6</div>
-                <div class="rtable-cell">
-                    <ul>
-                        <li>訓練邏輯</li>
-                        <li>多位數、報時、加減乘除、應用題、貨幣、</li>
-                        <li>最大公因數、最小公倍數、不同邊形的特性、</li>
-                        <li>面積、速率、行程圖、線和角、方程式、周界、</li>
-                        <li>長度、面積、八個主要方向、座標、單位的認知、</li>
-                        <li>圓周、折扣、重量和容量、百分數的應用等等。</li>
-                    </ul>
-                </div>
-                <div class="rtable-cell"><a href="/assets/幼稚園、小學數學專科.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-        </div>
-        <div class="rtable">
-            <div class="rtable-caption">小學呈分試特訓班</div>
-            <div class="rtable-head-row">
-                <div class="rtable-cell">課程名稱</div>
-                <div class="rtable-cell desc">簡介</div>
-                <div class="rtable-cell">詳細資料</div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">呈分試特訓</div>
-                <div class="rtable-cell" style="width:700px;">每天密集式操題應試
-                    <br>大量試題庫，模擬考試實況
-                    <br>訓練時間管理，分析題型，教授答題技巧
-                    <br>針對學生常犯錯誤，從而加以矯正，提升考試表現
-                </div>
-                <div class="rtable-cell"><a href="/assets/中英數呈分試特訓.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-        </div>
-        <div class="rtable">
-            <div class="rtable-caption">幼稚園能力提升、升小一面試</div>
-            <div class="rtable-head-row">
-                <div class="rtable-cell">課程名稱</div>
-                <div class="rtable-cell desc">簡介</div>
-                <div class="rtable-cell">詳細資料</div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">幼稚園課程</div>
-                <div class="rtable-cell" style="width:700px;">運用多感官、多元化的互動教學活動
-                    <br>使用有趣的短片、字卡等教材輔助教學
-                    <br>全面針對學習需求，鞏固主科學習的進度
-                    <br>學習觀察、想像、聯想和推理，建立獨立學習語文的能力</div>
-                <div class="rtable-cell"><a href="/assets/幼稚園課程.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-        </div>
-        <div class="rtable">
-            <div class="rtable-caption">其他課程</div>
-            <div class="rtable-head-row">
-                <div class="rtable-cell">課程名稱</div>
-                <div class="rtable-cell desc">簡介</div>
-                <div class="rtable-cell">詳細資料</div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">2022 暑期夏令營</div>
-                <div class="rtable-cell">暑假快到，夏令營是家長熱選活動之一，在輕鬆環境下，不但可獲得更多知識，有助提升小朋友們的個人發展，包括啟發創意、團隊合作、自主學習等</div>
-                <div class="rtable-cell"><a href="/assets/2022 暑期夏令營.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-        </div>
+        <ul>
+        <h1 class="section-title">中文學習範疇</h1>
+        <ul role="list">
+            {% for class in collections.chinese %}
+                {% include "class-snippet.njk" %}
+            {% endfor %}
+        <ul>
+        <h1 class="section-title">英文學習範疇</h1>
+        <ul role="list">
+            {% for class in collections.english %}
+                {% include "class-snippet.njk" %}
+            {% endfor %}
+        <ul>
+        <h1 class="section-title">幼稚園、小學數學專科</h1>
+        <ul role="list">
+            {% for class in collections.math %}
+                {% include "class-snippet.njk" %}
+            {% endfor %}
+        <ul>
+        <h1 class="section-title">小學呈分試特訓班</h1>
+        <ul role="list">
+            {% for class in collections.tsa %}
+                {% include "class-snippet.njk" %}
+            {% endfor %}
+        <ul>
+        <h1 class="section-title">幼稚園能力提升、升小一面試</h1>
+        <ul role="list">
+            {% for class in collections.kindergarten %}
+                {% include "class-snippet.njk" %}
+            {% endfor %}
+        <ul>
+        <h1 class="section-title">其他課程</h1>
+        <ul role="list">
+            {% for class in collections.other %}
+                {% include "class-snippet.njk" %}
+            {% endfor %}
+        <ul>
     </div>
 </section>
 <section class="sen">
     <div class="container">
-        <div class="rtable">
-            <div class="rtable-caption">SEN特殊教育需要課程</div>
-            <div class="rtable-head-row">
-                <div class="rtable-cell">課程名稱</div>
-                <div class="rtable-cell desc">簡介</div>
-                <div class="rtable-cell">詳細資料</div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">甄別測試服務</div>
-                <div class="rtable-cell">以較低費用初步認知子女有哪些SEN的傾向。針對懷疑或確診有讀寫障礙、專注力不足、ADHD、感統、資優、自閉症譜系、ASD、整體發展遲緩、學習遲緩等的學生。</div>
-                <div class="rtable-cell"><a href="/assets/甄別測試服務.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">感覺統合訓練</div>
-                <div class="rtable-cell">透過多元化的感覺統合訓練，加上適當的家居訓練，旨在全面改善專注力弱、學習困難、情緒及情緒失控、自傷及攻擊行為等情況，陪伴孩子們度過黃金訓練期。</div>
-                <div class="rtable-cell"><a href="/assets/感覺統合訓練.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">專注力社交課程</div>
-                <div class="rtable-cell">透過多種專注力和社交溝通的訓練，改善小朋友注意力不足及人際關係的問題。若小朋友專注耐力低，易發脾氣，與人溝通出現問題等，歡迎預約向相關主任諮詢。</div>
-                <div class="rtable-cell"><a href="/assets/專注力社交課程.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">情緒遊戲課程</div>
-                <div class="rtable-cell">透過遊戲，兒童投射自身經歷、想法、情緒、欲望和需要，以小組或個人形式透過觀察和陪伴兒童的遊
-                    戲來了解他們的內心世界。如小朋友受情緒行為問題、身我克制、及不懂放鬆，歡迎預約向相關主任諮詢。</div>
-                <div class="rtable-cell"><a href="/assets/情緒遊戲課程.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">中文趣味識字樂</div>
-                <div class="rtable-cell">每星期設不同的單元主題教學，透過全語文故事講讀和富趣味的遊戲學習元素，並利用圖像記憶，把抽象的文字符號變得易讀易明，豐富學童的識字量，加強中文口語及書面語的理解及表達能力，藉以促使他們自行閱讀故事、提升學習語文的興趣和信心，以及鞏固各個科目學習的基礎。</div>
-                <div class="rtable-cell"><a href="/assets/中文趣味識字樂.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">幼小閱讀理解班</div>
-                <div class="rtable-cell">每日輕鬆理解一個故事，會按學生高、中、低能力及需要進行，教學方式有別於平時的專科操卷模式，真正專業的教導方法。</div>
-                <div class="rtable-cell"><a href="/assets/最受歡迎幼小閱讀理解班.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">中文讀寫訓練</div>
-                <div class="rtable-cell">中文讀寫強效訓練小組，適合SEN 讀寫障礙、水平較低、對學習興趣不多的幼、小學生，按能力分初級、中級、高級，針對式教學，照顧不同學習需要。</div>
-                <div class="rtable-cell"><a href="/assets/中文讀寫訓練.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">英文讀寫訓練</div>
-                <div class="rtable-cell">英文讀寫強效訓練小組，適合約3歲或以上有英文讀寫困難的學生，按能力分設3個學習階段，針對式教學，照顧不同學習需要。</div>
-                <div class="rtable-cell"><a href="/assets/英文讀寫訓練.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">數學提升課程</div>
-                <div class="rtable-cell">為想提升數學水平、或想用英文版本學習數學的學生提供個別學習需要而設計適合他們的課程，增加學習數學的趣味，讓學員有興趣和投入學習，事半功倍。</div>
-                <div class="rtable-cell"><a href="/assets/數學提升課程.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-            <div class="rtable-div-row">
-                <div class="rtable-cell">密集式訓練課程</div>
-                <div class="rtable-cell">孩童成長的最重要階段由初生至六歲，若兒童能在黃金訓練期內進行適切的訓練，有助全方位提升兒童的能力。家長應與時並進，把握時間。本課程貼近幼稚園課程，銜接主流學校，並按孩子的能力施教，微調學習內容。</div>
-                <div class="rtable-cell"><a href="/assets/密集式訓練課程.pdf" target="_blank">閱讀更多</a></div>
-            </div>
-        </div>
+        <h1 class="section-title">SEN特殊教育需要課程</h1>
+        <ul role="list">
+            {% for class in collections.sen %}
+                {% include "class-snippet.njk" %}
+            {% endfor %}
+        <ul>
     </div>
 </section>
 <section class="join-us-section-brown">

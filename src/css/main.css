@@ -606,6 +606,13 @@ ul {
   margin: 0;
 }
 
+ul:where([role="list"]),
+ol:where([role="list"]) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 nav.menu-btn {
   display: block;
 }
@@ -668,13 +675,27 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 920px) {
+  .card .snippet {
+    color: var(--primary-color);
+    background: #eeeeeedf;
+  }
   .snippet {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[2];
-        grid-template-columns: repeat(2, auto);
-    gap: 3em;
-    margin: 3em 1em;
+    -ms-grid-columns: 1fr 25em;
+        grid-template-columns: 1fr 25em;
+    -ms-grid-rows: min-content min-content 1fr;
+        grid-template-rows: -webkit-min-content -webkit-min-content 1fr;
+        grid-template-rows: min-content min-content 1fr;
+    gap: 1em 1em;
+        grid-template-areas: "title image" "meta image" "body image";
+    padding: 1em;
+    -webkit-box-shadow: #d3d3d3 .3em .3em 1em;
+            box-shadow: #d3d3d3 .3em .3em 1em;
+    margin-bottom: 2em;
+  }
+  .main-article {
+    padding: 3em 6em;
   }
   .menu {
     display: none;
@@ -730,12 +751,6 @@ nav li a:hover {
     font-size: 1rem;
   }
   .hero .container .hero-img {
-    display: block;
-    content: url(/assets/Component-9-1.svg);
-    position: relative;
-    top: 17em;
-  }
-  .hero .container .hero-img-zh {
     display: block;
     content: url(/assets/Component-70-2.svg);
     position: relative;
@@ -1389,7 +1404,7 @@ section.programmes-list h1 {
   }
 }
 
-section.ordinaryschool .rtable, section.sen .rtable, section.weather-policy-section .rtable {
+section.weather-policy-section .rtable {
   display: table;
   width: auto;
   margin: auto;
@@ -1397,7 +1412,7 @@ section.ordinaryschool .rtable, section.sen .rtable, section.weather-policy-sect
   border: var(--secondary-color) solid 2px;
 }
 
-section.ordinaryschool .rtable-caption, section.sen .rtable-caption, section.weather-policy-section .rtable-caption {
+section.weather-policy-section .rtable-caption {
   display: table-caption;
   text-align: center;
   width: auto;
@@ -1407,7 +1422,7 @@ section.ordinaryschool .rtable-caption, section.sen .rtable-caption, section.wea
   padding: .3em 0 .3em 0;
 }
 
-section.ordinaryschool .rtable-head-row, section.sen .rtable-head-row, section.weather-policy-section .rtable-head-row {
+section.weather-policy-section .rtable-head-row {
   display: table-header-group;
   text-align: center;
   width: auto;
@@ -1417,21 +1432,21 @@ section.ordinaryschool .rtable-head-row, section.sen .rtable-head-row, section.w
   font-size: large;
 }
 
-section.ordinaryschool .rtable-div-row, section.sen .rtable-div-row, section.weather-policy-section .rtable-div-row {
+section.weather-policy-section .rtable-div-row {
   display: table-row;
   text-align: center;
   width: auto;
   background: #f2e7eb;
 }
 
-section.ordinaryschool .rtable-cell, section.sen .rtable-cell, section.weather-policy-section .rtable-cell {
+section.weather-policy-section .rtable-cell {
   display: table-cell;
   border: white double 1px;
   padding: .3em;
   vertical-align: middle;
 }
 
-section.ordinaryschool .rtable-cell a, section.sen .rtable-cell a, section.weather-policy-section .rtable-cell a {
+section.weather-policy-section .rtable-cell a {
   font-weight: bold;
   color: var(--primary-color);
   text-decoration: none;
@@ -1439,16 +1454,16 @@ section.ordinaryschool .rtable-cell a, section.sen .rtable-cell a, section.weath
   font-weight: bold;
 }
 
-section.ordinaryschool .rtable-cell a:hover, section.sen .rtable-cell a:hover, section.weather-policy-section .rtable-cell a:hover {
+section.weather-policy-section .rtable-cell a:hover {
   opacity: .7;
   cursor: pointer;
 }
 
-section.ordinaryschool .desc, section.sen .desc, section.weather-policy-section .desc {
+section.weather-policy-section .desc {
   width: 50%;
 }
 
-section.ordinaryschool .rtable-cell, section.sen .rtable-cell, section.weather-policy-section .rtable-cell {
+section.weather-policy-section .rtable-cell {
   font-size: smaller;
 }
 
@@ -1497,7 +1512,7 @@ section.blog {
 
 section.blog svg {
   fill: black;
-  width: 5em;
+  width: 9em;
   margin-top: 2em;
 }
 
@@ -1541,14 +1556,11 @@ section.blog .view-blog {
 
 .article-title {
   font-size: 2rem;
-  margin-top: 2em;
-  margin-bottom: 1.3em;
-  margin-left: 1em;
-  color: var(--tertiary-color);
+  color: black;
 }
 
 .main-article {
-  margin: 3em 2em;
+  margin: 3em .7em;
   font-size: 1.3rem;
 }
 
@@ -1570,6 +1582,35 @@ img, picture {
 }
 
 h1.section-title {
+  margin-left: 1em;
+}
+
+.snippet__title {
+  grid-area: title;
+}
+
+.snippet__meta {
+  grid-area: meta;
+}
+
+.snippet__body {
+  grid-area: body;
+}
+
+.snippet__image {
+  grid-area: image;
+}
+
+.card .snippet a {
+  text-decoration: none;
+  color: white;
+}
+
+section.ordinaryschool, section.sen {
+  margin: 3em 1em;
+}
+
+section.ordinaryschool article.snippet, section.sen article.snippet {
   margin-left: 1em;
 }
 /*# sourceMappingURL=main.css.map */
