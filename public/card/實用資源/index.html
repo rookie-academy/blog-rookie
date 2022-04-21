@@ -27,6 +27,9 @@
 
 
 <title>實用資源</title>
+
+<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </head>
 <body>
     <header>
@@ -203,6 +206,18 @@
         close.addEventListener('click', () => {
             nav.classList.remove('open-nav')
         }) 
+    </script>
+
+    <script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+            });
+        }
+        });
+    }
     </script>
 </body>
 </html>
