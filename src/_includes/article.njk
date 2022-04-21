@@ -9,10 +9,11 @@ layout: 'base.njk'
       {{ title }}
     </h1>
     <img src="{{ image }}" alt="{{ imageAlt }}">
-    <figcaption>
+    <figcaption class="text-center">
       {{ imageAlt }}
     </figcaption>
-    
+    <div class="text-center"><span>發表日期：{{ date | postDate }}</span> 
+    <span>{{ content | emojiReadTime }}</span></div>
     {{ content | safe }}
   
 </div>

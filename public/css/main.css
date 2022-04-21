@@ -2,6 +2,12 @@
   --primary-color: #dd1954;
   --secondary-color: #601028;
   --tertiary-color: #DB7191;
+  --fs-200: 0.5rem;
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.5rem;
+  --fs-600: 2.25rem;
+  --fs-700: 3rem;
 }
 
 textarea.comments {
@@ -15,6 +21,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #f2f2f2;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
@@ -50,7 +57,7 @@ body svg {
 
 .top-header-bar .current-language span {
   color: white;
-  font-size: .3rem;
+  font-size: var(--fs-200);
   margin-top: 2em;
   margin-left: 5em;
 }
@@ -74,7 +81,7 @@ body svg {
 .top-header-bar .lang-dropdown a {
   text-decoration: none;
   color: black;
-  font-size: .5rem;
+  font-size: var(--fs-200);
   padding: .6em 1.5em;
 }
 
@@ -90,7 +97,7 @@ body svg {
 
 .top-header-bar .middle-col .call-number {
   color: white;
-  font-size: .5rem;
+  font-size: var(--fs-200);
 }
 
 .top-header-bar .middle-col .call-number a {
@@ -108,7 +115,7 @@ body svg {
 
 .top-header-bar .middle-col .email-address {
   color: white;
-  font-size: .5rem;
+  font-size: var(--fs-200);
 }
 
 .top-header-bar .middle-col .email-address a {
@@ -142,7 +149,7 @@ body svg {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: .1rem;
+  font-size: var(--fs-200);
 }
 
 .navbar .company-logo span {
@@ -244,7 +251,7 @@ section.hero .left-col h1 span {
 section.hero .left-col .primary-cta {
   display: inline-block;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: var(--fs-500);
   font-weight: bold;
   color: white;
   background: var(--primary-color);
@@ -269,7 +276,7 @@ section.about-section {
 }
 
 section.about-section h1.about-section-caption {
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
   text-decoration: underline;
 }
 
@@ -347,7 +354,7 @@ section.core-value-section h1.core-value-caption {
   margin-top: 0em;
   margin-left: 1.8em;
   margin-bottom: 2.2em;
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
 }
 
 section.core-value-section ul.core-values-list {
@@ -363,7 +370,7 @@ section.core-value-section ul.core-values-list {
 }
 
 section.core-value-section ul.core-values-list li {
-  font-size: 1.1rem;
+  font-size: var(--fs-400);
   letter-spacing: .03em;
   margin-bottom: 4em;
   margin-left: 2em;
@@ -387,7 +394,7 @@ section.mission-section {
 }
 
 section.mission-section h1 {
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
   text-decoration: underline;
 }
 
@@ -422,12 +429,12 @@ section.contact-us .container .contact-left {
 }
 
 section.contact-us .container .contact-left h1 {
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
   margin-bottom: 2em;
 }
 
 section.contact-us .container .contact-left h3 {
-  font-size: 1rem;
+  font-size: var(--fs-300);
   margin-bottom: .5em;
 }
 
@@ -447,7 +454,7 @@ section.services-section {
 }
 
 section.services-section h1 {
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
   text-decoration: underline;
 }
 
@@ -474,7 +481,7 @@ section.services-section p {
 section.services-section a.more-info-cta {
   display: inline-block;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: var(--fs-500);
   font-weight: bold;
   color: white;
   background: var(--primary-color);
@@ -489,7 +496,7 @@ section.working-with-us-section {
 }
 
 section.working-with-us-section h1 {
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
   text-decoration: underline;
 }
 
@@ -511,7 +518,7 @@ section.working-with-us-section p {
 section.working-with-us-section .work-cta {
   display: inline-block;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: var(--fs-500);
   font-weight: bold;
   color: white;
   background: var(--primary-color);
@@ -643,7 +650,7 @@ nav li a {
   text-decoration: none;
   display: block;
   padding: .5em;
-  font-size: 1.3em;
+  font-size: var(--fs-400);
   text-align: right;
 }
 
@@ -675,9 +682,27 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 920px) {
+  @root : {
+    --fs-200: 0.7rem;
+    --fs-300: 0.9375rem;
+    --fs-400: 1.0625rem;
+    --fs-500: 1.375rem;
+    --fs-600: 1.875rem;
+    --fs-700: 2rem;
+  }
   .card .snippet {
     color: var(--primary-color);
     background: #eeeeeedf;
+  }
+  .card a {
+    text-decoration: none;
+    color: white;
+  }
+  .card .snippet__title {
+    color: var(--primary-color);
+  }
+  .card li ::before {
+    content: none;
   }
   .snippet {
     display: -ms-grid;
@@ -726,7 +751,7 @@ nav li a:hover {
   nav ul a {
     color: #616161;
     padding: .5em 1.5em;
-    font-size: .9rem;
+    font-size: var(--fs-300);
   }
   nav ul a:hover {
     background: none;
@@ -748,7 +773,7 @@ nav li a:hover {
     margin: 3em 1em 0em 2em;
   }
   .hero .container .left-col p {
-    font-size: 1rem;
+    font-size: var(--fs-300);
   }
   .hero .container .hero-img {
     display: block;
@@ -834,7 +859,7 @@ nav li a:hover {
     top: .7em;
   }
   .overlapping-bridge p {
-    font-size: .7em;
+    font-size: var(--fs-200);
   }
   .recent-news {
     width: 50%;
@@ -899,13 +924,13 @@ section.join-us-section .container .punchline img {
 }
 
 section.join-us-section .container p {
-  font-size: 1.3rem;
+  font-size: var(--fs-500);
   margin-bottom: .5em;
   margin-top: 1em;
 }
 
 section.join-us-section .container label {
-  font-size: 1.0rem;
+  font-size: var(--fs-300);
 }
 
 section.join-us-section .container form {
@@ -960,7 +985,7 @@ section.join-us-section .container .place label {
   text-align: center;
   position: relative;
   top: -.5em;
-  font-size: 1rem;
+  font-size: var(--fs-300);
 }
 
 section.join-us-section .container .place label:hover {
@@ -975,7 +1000,7 @@ section.join-us-section .container input[type="submit"] {
   background: var(--primary-color);
   color: white;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: var(--fs-500);
   border: none;
   border-radius: 5em;
   margin-bottom: 5em;
@@ -1004,7 +1029,7 @@ section.join-us-section .container .subscribe input[type="checkbox"] {
 section.join-us-section .container .subscribe label {
   padding: 0;
   margin: 0;
-  font-size: .7rem;
+  font-size: var(--fs-300);
   color: #606060;
   position: relative;
   top: -.3em;
@@ -1031,14 +1056,14 @@ section.join-us-section-brown .container .punchline img {
 }
 
 section.join-us-section-brown .container p {
-  font-size: 1.3rem;
+  font-size: var(--fs-500);
   margin-bottom: .5em;
   margin-top: 1em;
   color: white;
 }
 
 section.join-us-section-brown .container label {
-  font-size: 1.0rem;
+  font-size: var(--fs-300);
   color: white;
 }
 
@@ -1095,7 +1120,7 @@ section.join-us-section-brown .container .place label {
   text-align: center;
   position: relative;
   top: -.5em;
-  font-size: 1rem;
+  font-size: var(--fs-300);
 }
 
 section.join-us-section-brown .container .place label:hover {
@@ -1110,7 +1135,7 @@ section.join-us-section-brown .container input[type="submit"] {
   background: var(--primary-color);
   color: white;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: var(--fs-500);
   border: none;
   border-radius: 5em;
   margin-bottom: 5em;
@@ -1139,7 +1164,7 @@ section.join-us-section-brown .container .subscribe input[type="checkbox"] {
 section.join-us-section-brown .container .subscribe label {
   padding: 0;
   margin: 0;
-  font-size: .7rem;
+  font-size: var(--fs-300);
   color: #606060;
   position: relative;
   top: -.3em;
@@ -1161,12 +1186,12 @@ section.faq-section .punchline img {
 }
 
 section.faq-section .punchline h1 {
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
   margin-left: 1em;
 }
 
 section.faq-section h3 {
-  font-size: 1.2rem;
+  font-size: var(--fs-500);
   text-align: center;
 }
 
@@ -1179,7 +1204,7 @@ section.faq-section ul.faq-list {
 }
 
 section.faq-section ul.faq-list li {
-  font-size: 1.1rem;
+  font-size: var(--fs-400);
   padding: 0 3em;
   letter-spacing: .03em;
   margin-bottom: 2em;
@@ -1227,7 +1252,7 @@ section.thank-section .punchline img {
 }
 
 section.thank-section .punchline h1 {
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
   margin-left: 1em;
 }
 
@@ -1235,7 +1260,7 @@ section.thank-section p {
   padding: 0 0 3em 0;
   text-indent: 2em;
   letter-spacing: .03em;
-  font-size: 1.1rem;
+  font-size: var(--fs-400);
   margin-left: 1em;
 }
 
@@ -1257,12 +1282,12 @@ section.work-with-us .container .punchline img {
 }
 
 section.work-with-us .container .punchline h1 {
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
   padding-bottom: 2em;
 }
 
 section.work-with-us .container label {
-  font-size: 1.3rem;
+  font-size: var(--fs-300);
   display: block;
   margin-bottom: .5em;
   margin-top: 1em;
@@ -1305,7 +1330,7 @@ section.work-with-us .container input[type="submit"] {
   background: var(--primary-color);
   color: white;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: var(--fs-500);
   border: none;
   border-radius: 5em;
   margin-bottom: 5em;
@@ -1327,7 +1352,7 @@ section.programmes-list img {
 }
 
 section.programmes-list h1 {
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
 }
 
 .more-info {
@@ -1372,7 +1397,7 @@ section.programmes-list h1 {
 .more-info .feature .content .more-info-btn {
   display: inline-block;
   text-decoration: none;
-  font-size: .7rem;
+  font-size: var(--fs-300);
   font-weight: bold;
   color: white;
   background: var(--primary-color);
@@ -1400,7 +1425,7 @@ section.programmes-list h1 {
     padding-right: 1em;
   }
   .overlapping-bridge p {
-    font-size: .3rem;
+    font-size: var(--fs-200);
   }
 }
 
@@ -1416,7 +1441,7 @@ section.weather-policy-section .rtable-caption {
   display: table-caption;
   text-align: center;
   width: auto;
-  font-size: x-large;
+  font-size: var(--fs-500);
   background: var(--secondary-color);
   color: white;
   padding: .3em 0 .3em 0;
@@ -1429,7 +1454,7 @@ section.weather-policy-section .rtable-head-row {
   background: var(--tertiary-color);
   color: var(--secondary-color);
   font-weight: bold;
-  font-size: large;
+  font-size: var(--fs-400);
 }
 
 section.weather-policy-section .rtable-div-row {
@@ -1464,7 +1489,7 @@ section.weather-policy-section .desc {
 }
 
 section.weather-policy-section .rtable-cell {
-  font-size: smaller;
+  font-size: var(--fs-300);
 }
 
 ul.level-0 {
@@ -1517,7 +1542,7 @@ section.blog svg {
 }
 
 section.blog h1.blog-caption {
-  font-size: 1.7rem;
+  font-size: var(--fs-600);
   text-decoration: underline;
 }
 
@@ -1545,7 +1570,7 @@ section.blog p {
 section.blog .view-blog {
   display: inline-block;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: var(--fs-500);
   font-weight: bold;
   color: white;
   background: var(--primary-color);
@@ -1555,13 +1580,14 @@ section.blog .view-blog {
 }
 
 .article-title {
-  font-size: 2rem;
+  font-size: var(--fs-600);
   color: black;
 }
 
 .main-article {
   margin: 3em .7em;
-  font-size: 1.3rem;
+  font-size: var(--fs-400);
+  line-height: 2.3rem;
 }
 
 .main-article img {
@@ -1587,7 +1613,7 @@ h1.section-title {
 
 .snippet__title {
   grid-area: title;
-  color: var(--primary-color);
+  color: white;
 }
 
 .snippet__meta {
@@ -1605,15 +1631,6 @@ h1.section-title {
           box-shadow: #A3A3A3 .3em .3em 1em;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.card .snippet a {
-  text-decoration: none;
-  color: white;
-}
-
-.card .snippet li ::before {
-  content: none;
 }
 
 section.ordinaryschool, section.sen {

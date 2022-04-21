@@ -2,7 +2,14 @@
     --primary-color: #dd1954;
     --secondary-color: #601028;
     --tertiary-color: #DB7191;
+    --fs-200: 0.5rem;
+    --fs-300: 1rem;
+    --fs-400: 1.125rem;
+    --fs-500: 1.5rem;
+    --fs-600: 2.25rem;
+    --fs-700: 3rem;
 }
+
 
 textarea.comments {
     resize: none;
@@ -14,7 +21,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: #f2f2f2;
-    
+    min-height: 100vh;
     .menu , .close {
         width: 2em;
     }
@@ -41,7 +48,7 @@ body {
         cursor: pointer;
         span {
             color: white;
-            font-size: .3rem;
+            font-size: var(--fs-200);
             margin-top: 2em;
             margin-left: 5em;
         }
@@ -54,7 +61,7 @@ body {
         a {
             text-decoration: none;
             color: black;
-            font-size: .5rem;
+            font-size: var(--fs-200);
             padding: .6em 1.5em;
         }
         display: none;
@@ -76,7 +83,7 @@ body {
         }
         .call-number {
             color: white;
-            font-size: .5rem;
+            font-size: var(--fs-200);
             a {
                 text-decoration: none;
                 color: white;
@@ -92,7 +99,7 @@ body {
         }
         .email-address {
             color: white;
-            font-size: .5rem;
+            font-size: var(--fs-200);
             a {
                 text-decoration: none;
                 color: white;
@@ -122,7 +129,7 @@ body {
         text-decoration: none;
         color: black;
         font-weight: bold;
-        font-size: .1rem;
+        font-size: var(--fs-200);
         span {
             color:var(--primary-color);
         }
@@ -219,7 +226,7 @@ section.hero {
         .primary-cta {
             display: inline-block;
             text-decoration: none;
-            font-size: 1.5rem;
+            font-size: var(--fs-500);
             font-weight: bold;
             color: white;
             background: var(--primary-color);
@@ -242,7 +249,7 @@ section.about-section {
     color: white;
     padding: 3em 2.7em 3em 2.7em;
     h1.about-section-caption {
-        font-size: 1.7rem;
+        font-size: var(--fs-600);
         text-decoration: underline;
         span {
             color: var(--primary-color);
@@ -308,7 +315,7 @@ section.core-value-section {
         margin-top: 0em;
         margin-left: 1.8em;
         margin-bottom: 2.2em;
-        font-size: 1.7rem;
+        font-size: var(--fs-600);
 
     }
     ul.core-values-list {
@@ -321,7 +328,7 @@ section.core-value-section {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
         li {
-            font-size: 1.1rem;
+            font-size: var(--fs-400);
             letter-spacing: .03em;
             margin-bottom: 4em;
             margin-left: 2em;
@@ -344,7 +351,7 @@ section.core-value-section {
 section.mission-section {
     padding: 3em 2.7em 3em 2.7em;
     h1 {
-        font-size: 1.7rem;
+        font-size: var(--fs-600);
         text-decoration: underline;
 
     }
@@ -373,11 +380,11 @@ section.contact-us {
     .container{
         .contact-left {
             h1 {
-                font-size: 1.7rem;
+                font-size: var(--fs-600);
                 margin-bottom: 2em;
             }
             h3 {
-                font-size: 1rem;
+                font-size: var(--fs-300);
                 margin-bottom: .5em;
             }
             a {
@@ -401,7 +408,7 @@ section.contact-us {
 section.services-section {
     padding: 3em 2.7em 3em 2.7em;
     h1 {
-        font-size: 1.7rem;
+        font-size: var(--fs-600);
         text-decoration: underline;
 
     }
@@ -433,7 +440,7 @@ section.services-section {
         
         display: inline-block;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: var(--fs-500);
         font-weight: bold;
         color: white;
         background: var(--primary-color);
@@ -449,7 +456,7 @@ section.working-with-us-section {
     color: white;
     padding: 3em 2.7em 3em 2.7em;
     h1 {
-        font-size: 1.7rem;
+        font-size: var(--fs-600);
         text-decoration: underline;
     }
     .punchline {
@@ -468,7 +475,7 @@ section.working-with-us-section {
     .work-cta {
         display: inline-block;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: var(--fs-500);
         font-weight: bold;
         color: white;
         background: var(--primary-color);
@@ -587,7 +594,7 @@ nav {
             text-decoration: none;
             display: block;
             padding: .5em;
-            font-size: 1.3em;
+            font-size: var(--fs-400);
             text-align: right;
 
             &:hover {
@@ -626,10 +633,31 @@ nav {
 
 
 @media only screen and (min-width: 920px) {
+    @root: {
+        --fs-200: 0.7rem;
+        --fs-300: 0.9375rem;
+        --fs-400: 1.0625rem;
+        --fs-500: 1.375rem;
+        --fs-600: 1.875rem;
+        --fs-700: 2rem;
+    }
     .card {
         .snippet {
             color: var(--primary-color);
             background: #eeeeeedf;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .snippet__title {
+            color: var(--primary-color);
+        }
+        li {
+            ::before {
+                content: none;
+                
+            }
         }
     }
     .snippet {
@@ -675,7 +703,7 @@ nav {
             a {
                 color: #616161;
                 padding: .5em 1.5em;
-                font-size: .9rem;
+                font-size: var(--fs-300);
 
                 &:hover {
                     background: none;
@@ -695,7 +723,7 @@ nav {
         text-align: left;
         .left-col {
             p {
-                font-size: 1rem;
+                font-size: var(--fs-300);
             }
             margin: 3em 1em 0em 2em;
             
@@ -865,7 +893,7 @@ nav {
         position: relative;
         top: .7em;
         p {
-            font-size: .7em;
+            font-size: var(--fs-200);
         }
     }
 
@@ -938,13 +966,13 @@ section.join-us-section {
         }
         
         p {
-            font-size: 1.3rem;
+            font-size: var(--fs-500);
             margin-bottom: .5em;
             margin-top: 1em;
         }
 
         label {
-            font-size: 1.0rem;
+            font-size: var(--fs-300);
             //display: block;
             //margin-bottom: .5em;
             //margin-top: 1em;
@@ -992,7 +1020,7 @@ section.join-us-section {
                 text-align: center;
                 position: relative;
                 top:-.5em;
-                font-size: 1rem;
+                font-size: var(--fs-300);
                 &:hover {
                     background-color: var(--tertiary-color);
                     border-radius: .3em;
@@ -1007,7 +1035,7 @@ section.join-us-section {
             background: var(--primary-color);
             color: white;
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: var(--fs-500);
         
             border: none;
             border-radius: 5em;
@@ -1034,7 +1062,7 @@ section.join-us-section {
             label {
                 padding: 0;
                 margin: 0;
-                font-size: .7rem;
+                font-size: var(--fs-300);
                 color: #606060;
                 position: relative;
                 top: -.3em;
@@ -1060,14 +1088,14 @@ section.join-us-section-brown {
         }
         
         p {
-            font-size: 1.3rem;
+            font-size: var(--fs-500);
             margin-bottom: .5em;
             margin-top: 1em;
             color: white;
         }
 
         label {
-            font-size: 1.0rem;
+            font-size: var(--fs-300);
             color: white;
             //display: block;
             //margin-bottom: .5em;
@@ -1118,7 +1146,7 @@ section.join-us-section-brown {
                 text-align: center;
                 position: relative;
                 top:-.5em;
-                font-size: 1rem;
+                font-size: var(--fs-300);
                 &:hover {
                     background-color: var(--tertiary-color);
                     border-radius: .3em;
@@ -1133,7 +1161,7 @@ section.join-us-section-brown {
             background: var(--primary-color);
             color: white;
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: var(--fs-500);
         
             border: none;
             border-radius: 5em;
@@ -1160,7 +1188,7 @@ section.join-us-section-brown {
             label {
                 padding: 0;
                 margin: 0;
-                font-size: .7rem;
+                font-size: var(--fs-300);
                 color: #606060;
                 position: relative;
                 top: -.3em;
@@ -1181,13 +1209,13 @@ section.faq-section {
             
         }
         h1 {
-            font-size: 1.7rem;
+            font-size: var(--fs-600);
             margin-left: 1em;
         }
         padding-bottom: 3em;
     }
     h3 {
-        font-size: 1.2rem;
+        font-size: var(--fs-500);
         text-align: center;
     }
     ul.faq-list {
@@ -1196,7 +1224,7 @@ section.faq-section {
         gap:3em;
 
         li {
-            font-size: 1.1rem;
+            font-size: var(--fs-400);
             padding: 0 3em;
             letter-spacing: .03em;
             margin-bottom: 2em;
@@ -1244,7 +1272,7 @@ section.thank-section {
             
         }
         h1 {
-            font-size: 1.7rem;
+            font-size: var(--fs-600);
             margin-left: 1em;
         }
         padding-bottom: 3em;
@@ -1254,7 +1282,7 @@ section.thank-section {
         padding: 0 0 3em 0;
         text-indent: 2em;
         letter-spacing: .03em;
-        font-size: 1.1rem;
+        font-size: var(--fs-400);
         margin-left: 1em;
     }
 }
@@ -1272,13 +1300,13 @@ section.work-with-us {
                 margin-bottom: 1em;
             }
             h1 {
-                font-size: 1.7rem;
+                font-size: var(--fs-600);
                 padding-bottom: 2em;
             }
         }
 
         label {
-            font-size: 1.3rem;
+            font-size: var(--fs-300);
             display: block;
             margin-bottom: .5em;
             margin-top: 1em;
@@ -1314,7 +1342,7 @@ section.work-with-us {
             background: var(--primary-color);
             color: white;
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: var(--fs-500);
         
             border: none;
             border-radius: 5em;
@@ -1339,7 +1367,7 @@ section.programmes-list {
         width: 7em;
     }
     h1 {
-        font-size: 1.7rem;
+        font-size: var(--fs-600);
     }
 
 }
@@ -1375,7 +1403,7 @@ section.programmes-list {
             .more-info-btn{
                 display: inline-block;
                 text-decoration: none;
-                font-size: .7rem;
+                font-size: var(--fs-300);
                 font-weight: bold;
                 color: white;
                 background: var(--primary-color);
@@ -1411,7 +1439,7 @@ section.programmes-list {
 
     .overlapping-bridge {
         p {
-            font-size: .3rem;
+            font-size: var(--fs-200);
         }
     }
 }
@@ -1428,7 +1456,7 @@ section.weather-policy-section{
         display: table-caption;
         text-align: center;
         width: auto;
-        font-size: x-large;
+        font-size: var(--fs-500);
         background: var(--secondary-color);
         color: white;
         padding: .3em 0 .3em 0;
@@ -1441,7 +1469,7 @@ section.weather-policy-section{
         background: var(--tertiary-color);
         color: var(--secondary-color);
         font-weight: bold;
-        font-size: large;
+        font-size: var(--fs-400);
     }
     .rtable-div-row{
         display: table-row;
@@ -1473,7 +1501,7 @@ section.weather-policy-section{
     }
 
     .rtable-cell{
-        font-size: smaller;
+        font-size: var(--fs-300);
     }
 }
 
@@ -1518,7 +1546,7 @@ section.blog {
         margin-top: 2em;
     }
     h1.blog-caption {
-        font-size: 1.7rem;
+        font-size: var(--fs-600);
         text-decoration: underline;
     }
     .punchline {
@@ -1541,7 +1569,7 @@ section.blog {
     .view-blog {
         display: inline-block;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: var(--fs-500);
         font-weight: bold;
         color: white;
         background: var(--primary-color);
@@ -1552,7 +1580,7 @@ section.blog {
 }
 
 .article-title {
-    font-size: 2rem;
+    font-size: var(--fs-600);
 
     color: black;
 }
@@ -1567,7 +1595,8 @@ section.blog {
         color: #A3A3A3
         
     }
-    font-size: 1.3rem;
+    font-size: var(--fs-400);
+    line-height: 2.3rem;
 }
 
 
@@ -1586,7 +1615,7 @@ h1.section-title {
 
 .snippet__title {
     grid-area: title;
-    color:var(--primary-color);
+    color: white;
 }
 .snippet__meta {
     grid-area: meta;
@@ -1603,21 +1632,6 @@ h1.section-title {
 
 
 
-.card {
-    .snippet {
-        a {
-            text-decoration: none;
-            color: white;
-        }
-        
-        li {
-            ::before {
-                content: none;
-                
-            }
-        }
-    }
-}
 
 section.ordinaryschool, section.sen {
     margin: 3em 1em;
@@ -1625,3 +1639,4 @@ section.ordinaryschool, section.sen {
         margin-left: 1em;
     }
 }
+

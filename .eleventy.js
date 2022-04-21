@@ -1,6 +1,8 @@
 const { DateTime } = require("luxon");
-
+const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 module.exports = function(eleventyConfig) {
+
+    eleventyConfig.addPlugin(emojiReadTime);
 
     eleventyConfig.addPassthroughCopy('./src/css/');
     eleventyConfig.addPassthroughCopy('./src/assets/');
