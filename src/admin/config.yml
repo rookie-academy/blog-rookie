@@ -55,7 +55,7 @@ collections:
       - { label: "Upload Leaflet", name: "leaflet", widget: "string" }
   - name: "card"
     label: "Card"
-    folder: "src/class"
+    folder: "src/card"
     create: true
     slug: "{{slug}}" # Filename template, e.g., title.md
     fields:
