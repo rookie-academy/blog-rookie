@@ -22,7 +22,7 @@ collections:
         label: "Tags"
         name: "tags"
         multiple: true
-        create: true
+        create: false
         options: ["post", "featured"]
         default: ["post"]
       - { label: "Image", name: "image", widget: "image" }
@@ -42,6 +42,13 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       #- { label: "Tags", name: "tags", widget: "list", default: ["class"] } # ace, class, chinese, english, math, tsa, kindergarten, other, sen, popular
+      - widget: "select"
+        label: "Tags"
+        name: "tags"
+        multiple: true
+        create: false
+        options: ["class", "popular", "ace", "chinese", "english", "math", "tsa", "kindergarten", "other", "sen"]
+        default: ["class"]
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
@@ -58,7 +65,14 @@ collections:
       - { label: "Search Keywords", name: "keywords", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["card"] } # card
+      #- { label: "Tags", name: "tags", widget: "list", default: ["card"] } # card
+      - widget: "select"
+        label: "Tags"
+        name: "tags"
+        multiple: true
+        create: false
+        options: ["card", "star"]
+        default: ["card"]
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
