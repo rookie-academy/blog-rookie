@@ -1600,8 +1600,11 @@ h1.section-title {
 
 .snippet__image {
   grid-area: image;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  aspect-ratio: 4 / 3;
+  -webkit-box-shadow: #A3A3A3 .3em .3em 1em;
+          box-shadow: #A3A3A3 .3em .3em 1em;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card .snippet a {
