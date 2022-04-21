@@ -1595,6 +1595,7 @@ h1.section-title {
 }
 .snippet__image {
     grid-area: image;
+    clip-path: circle(50% at 50% 50%);
 }
 
 
