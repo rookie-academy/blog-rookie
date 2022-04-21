@@ -17,7 +17,14 @@ collections:
       - { label: "Search Keywords", name: "keywords", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] } # post, featured
+      #- { label: "Tags", name: "tags", widget: "list", default: ["post"] } # post, featured
+      - widget: "select"
+        label: "Tags"
+        name: "tags"
+        multiple: true
+        create: true
+        options: ["post", "featured"]
+        default: ["post"]
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
@@ -34,7 +41,7 @@ collections:
       - { label: "Search Keywords", name: "keywords", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["class"] } # ace, class, chinese, english, math, tsa, kindergarten, other, sen, popular
+      #- { label: "Tags", name: "tags", widget: "list", default: ["class"] } # ace, class, chinese, english, math, tsa, kindergarten, other, sen, popular
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
