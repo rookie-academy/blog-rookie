@@ -1,21 +1,22 @@
 ---
-title: My Second Article
-author: Kevin Powell
+description: 七種感官系統中，觸覺、本體覺和前庭覺的影響力比較大，這三種感官怎樣在人體中運作呢？
+keywords: "前庭覺, 本體覺, 觸覺, 幼兒發展, 感覺統合, "
+author: 特殊教育老師
 date: 2021-05-15
-tags: ["post", "featured"]
-image: /assets/uploads/article-2.jpg
-imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-canonical: 
-keywords: 
+imageAlt: 幼兒發展過程3大重要感官系統您一定要知
+canonical: null
+title: 幼兒發展過程3大重要感官系統您不可不知？！
+tags:
+  - post
+  - featured
+image: /assets/uploads/8c52bf6a-bc1f-4e97-8382-d6ad5585e630.png
 ---
+![觸覺發展器官](/assets/uploads/94f3cc28-8207-4b88-a1a6-1bc49d8ffc27.jpeg "觸覺發展器官")
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa placerat duis ultricies lacus sed turpis tincidunt id. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat. Erat nam at lectus urna duis convallis convallis. Purus faucibus ornare suspendisse sed nisi. Mauris rhoncus aenean vel elit. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Tellus rutrum tellus pellentesque eu tincidunt tortor. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Eu mi bibendum neque egestas congue quisque.
+觸覺是所有感官系統中影響最廣的感覺。在視覺、聽覺還沒形成前，觸覺就開始發揮功能。孩子可以透過觸覺認識自己的身體，並和父母建立依附關係、安全感。此外，觸覺的發展也跟精細動作、認知學習、人際關係與社交互動息息相關。
 
-Nec ultrices dui sapien eget mi proin sed libero enim. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Justo eget magna fermentum iaculis eu non diam phasellus vestibulum. Iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Aliquam id diam maecenas ultricies mi. Faucibus in ornare quam viverra. Nisi est sit amet facilisis magna etiam tempor orci eu. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Fermentum dui faucibus in ornare quam viverra orci sagittis eu. Cras pulvinar mattis nunc sed. Pharetra et ultrices neque ornare aenean euismod elementum. Urna duis convallis convallis tellus. Donec massa sapien faucibus et. Id faucibus nisl tincidunt eget nullam non. Quam pellentesque nec nam aliquam sem et tortor consequat.
+本體覺的接收器隱藏在肌肉、關節與骨骼中，它可以偵測身體各部位的動作，幫助穩定情緒、調節活動量、強化記憶力、增加睡眠品質，並提高自我控制的能力。
 
-Ac auctor augue mauris augue neque. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Tellus in hac habitasse platea dictumst vestibulum rhoncus est. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Arcu ac tortor dignissim convallis aenean. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Porttitor eget dolor morbi non. Quis lectus nulla at volutpat diam ut venenatis tellus. Ultricies leo integer malesuada nunc vel risus. Facilisis sed odio morbi quis commodo odio aenean.
+前庭覺的接收器在內耳裡面，偵測頭轉動的幅度、身體移動的速度、姿勢變換的狀態，協助人體做出正確的姿勢。孩子才可以順利發展翻身、坐、爬、站、走、跑、跳等大動作。此外，前庭覺的發展也和視覺、空間、知覺、方向感、情緒、專注力及睡眠息息相關。
 
-Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Sit amet cursus sit amet dictum sit amet justo. Euismod lacinia at quis risus sed vulputate odio ut. Malesuada pellentesque elit eget gravida. Diam donec adipiscing tristique risus nec. Eu nisl nunc mi ipsum faucibus vitae aliquet nec. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Nibh ipsum consequat nisl vel. Sit amet consectetur adipiscing elit. Porta nibh venenatis cras sed felis eget. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Orci phasellus egestas tellus rutrum. Ac felis donec et odio pellentesque diam volutpat commodo sed. Viverra nam libero justo laoreet sit amet cursus sit amet. Duis at consectetur lorem donec massa sapien faucibus. Et leo duis ut diam quam nulla porttitor massa. Eros donec ac odio tempor. Massa ultricies mi quis hendrerit. Semper quis lectus nulla at volutpat diam ut venenatis.
-
-Urna condimentum mattis pellentesque id nibh tortor id aliquet. Mollis nunc sed id semper risus in. Morbi blandit cursus risus at ultrices mi. Lectus vestibulum mattis ullamcorper velit. Facilisis mauris sit amet massa vitae tortor. Ullamcorper sit amet risus nullam. Nunc sed blandit libero volutpat sed. Ut tortor pretium viverra suspendisse potenti nullam ac tortor. Convallis convallis tellus id interdum velit laoreet id. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Non nisi est sit amet facilisis magna etiam tempor. Nisl nunc mi ipsum faucibus vitae.
+![聽覺](/assets/uploads/7293ff76-8aab-4ed3-b982-038a58ddfd22.jpeg "聽覺")
