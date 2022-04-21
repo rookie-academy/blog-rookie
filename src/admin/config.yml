@@ -22,7 +22,6 @@ collections:
         label: "Tags"
         name: "tags"
         multiple: true
-        create: false
         options: ["post", "featured"]
         default: ["post"]
       - { label: "Image", name: "image", widget: "image" }
@@ -46,7 +45,6 @@ collections:
         label: "Tags"
         name: "tags"
         multiple: true
-        create: false
         options: ["class", "popular", "ace", "chinese", "english", "math", "tsa", "kindergarten", "other", "sen"]
         default: ["class"]
       - { label: "Image", name: "image", widget: "image" }
@@ -70,7 +68,6 @@ collections:
         label: "Tags"
         name: "tags"
         multiple: true
-        create: false
         options: ["card", "star"]
         default: ["card"]
       - { label: "Image", name: "image", widget: "image" }
