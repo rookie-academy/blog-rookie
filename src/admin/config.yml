@@ -5,8 +5,42 @@ publish_mode: editorial_workflow
 media_folder: "public/assets/uploads"
 public_folder: "/assets/uploads"
 collections:
-    - name: "class"
-    label: "Class"
+  - name: "blog"
+    label: "Blog"
+    folder: "src/blog"
+    create: true
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Canonical", name: "canonical", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Search Keywords", name: "keywords", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] } # post, featured
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Upload Leaflet", name: "leaflet", widget: "string" }
+  - name: "class"
+  label: "Class"
+  folder: "src/class"
+  create: true
+  slug: "{{slug}}" # Filename template, e.g., title.md
+  fields:
+    - { label: "Title", name: "title", widget: "string" }
+    - { label: "Canonical", name: "canonical", widget: "string" }
+    - { label: "Description", name: "description", widget: "string" }
+    - { label: "Search Keywords", name: "keywords", widget: "string" }
+    - { label: "Author", name: "author", widget: "string" }
+    - { label: "Publish Date", name: "date", widget: "datetime" }
+    - { label: "Tags", name: "tags", widget: "list", default: ["class"] } # ace, class, chinese, english, math, tsa, kindergarten, other, sen, popular
+    - { label: "Image", name: "image", widget: "image" }
+    - { label: "Image Caption", name: "imageAlt", widget: "string" }
+    - { label: "Body", name: "body", widget: "markdown" }
+    - { label: "Upload Leaflet", name: "leaflet", widget: "string" }
+  - name: "card"
+    label: "Card"
     folder: "src/class"
     create: true
     slug: "{{slug}}" # Filename template, e.g., title.md
@@ -17,7 +51,7 @@ collections:
       - { label: "Search Keywords", name: "keywords", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["class"] } # ace, class, chinese, english, math, tsa, kindergarten, other, sen, popular
+      - { label: "Tags", name: "tags", widget: "list", default: ["card"] } # card
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
