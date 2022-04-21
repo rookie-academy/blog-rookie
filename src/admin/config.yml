@@ -52,8 +52,8 @@ collections:
       - { label: "圖片標題", name: "imageAlt", widget: "string" }
       - { label: "內容", name: "body", widget: "markdown" }
       - { label: "上傳單張", name: "leaflet", widget: "string" }
-  - name: "卡紙"
-    label: "Card"
+  - name: "Card"
+    label: "卡紙"
     folder: "src/card"
     create: true
     slug: "{{slug}}" # Filename template, e.g., title.md
