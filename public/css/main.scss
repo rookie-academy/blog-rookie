@@ -389,8 +389,9 @@ section.contact-us {
         }
         .contact-right {
             iframe {
+                aspect-ratio: 4/3;
+                //height: 300px;
                 width: 100%;
-                height: 300px;
             }
     }
     
