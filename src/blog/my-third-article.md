@@ -1,21 +1,21 @@
 ---
-title: My Third Article
+title: 提升孩子言語發展速度的小撇步：男女說話速度大不同
 author: Kevin Powell
 date: 2021-05-28
 tags: post
 image: /assets/uploads/article-3.jpg
 imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
+description: 「男孩子說話會比較同齡女孩子」的迷思必須一開始釐清。男孩子和女孩子在語言能力發展方面的表現有分別，由於男女腦部結構不同，男孩子在理解及執行大人指令時會比較女孩子沒多大機會活用左右邊的腦袋；女孩子在進行言語活動時會同時運用左右腦，言語方面會比男孩子活躍，表現較為成熟。
 canonical: 
 keywords: 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo vel fringilla. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Ut sem nulla pharetra diam sit amet nisl. Est velit egestas dui id ornare. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Ut sem viverra aliquet eget. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. At augue eget arcu dictum. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Amet aliquam id diam maecenas ultricies mi.
+## 提升孩子言語發展速度的小撇步？
 
-Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Molestie nunc non blandit massa enim nec dui nunc mattis. Sem nulla pharetra diam sit amet nisl suscipit. Id eu nisl nunc mi. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Sit amet purus gravida quis blandit. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Magna fringilla urna porttitor rhoncus dolor. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Ut eu sem integer vitae. Orci phasellus egestas tellus rutrum tellus. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Dignissim sodales ut eu sem integer vitae justo. Tempus imperdiet nulla malesuada pellentesque elit eget. Lectus urna duis convallis convallis tellus id interdum velit.
+但就正因為如此，家長在培養子女成長時，多理解男孩子在言語發展方面的需要，對症下藥，「落後」的情況根本不存在。家長可以配合男孩子的發展需求﹐為他們提供更適切的「刺激」。當中最理想的當然陪伴子女閱讀故事能刺激幼兒的語言發展，但我們明白男孩子在語言學習時需要較多的感官刺激，因此老師會在故事中段花少許心思、製作相應的故事圖咭及教具、也會加強聲音的運用和模仿角色去「演繹」故事。
 
-Fringilla urna porttitor rhoncus dolor purus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Etiam non quam lacus suspendisse faucibus interdum. Eget dolor morbi non arcu risus quis varius quam. Senectus et netus et malesuada. Erat pellentesque adipiscing commodo elit at. Diam sit amet nisl suscipit. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lectus proin nibh nisl condimentum id venenatis. Consequat semper viverra nam libero. Cursus turpis massa tincidunt dui ut ornare. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Purus sit amet luctus venenatis lectus magna fringilla urna. Eget gravida cum sociis natoque penatibus. Tellus elementum sagittis vitae et leo duis ut diam quam. Scelerisque felis imperdiet proin fermentum leo vel orci. Eu facilisis sed odio morbi quis commodo. Sed risus ultricies tristique nulla aliquet.
+在豐富的語境下，不分男女語言學習的動機均會大大提高。以家居訓練作例子：當爸媽與「仔仔」玩玩具車時，不妨多以車子滑行的動作及擬聲詞「砵砵！」與幼兒作互動，以幫助他們將「砵砵」及「車」作聯繫，並學習「車」字的發音。所以說，只要能給予合適的刺激，想培養出較同齡幼兒「伶牙俐齒」的男孩子並不是不無可能。
 
-Erat nam at lectus urna duis. Pretium nibh ipsum consequat nisl vel pretium lectus quam id. Tristique senectus et netus et malesuada fames. Semper eget duis at tellus at urna. Dictum non consectetur a erat nam at. Non quam lacus suspendisse faucibus interdum posuere lorem. Risus nullam eget felis eget nunc lobortis mattis. Amet nulla facilisi morbi tempus iaculis urna id. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Scelerisque felis imperdiet proin fermentum leo vel orci porta. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Sit amet luctus venenatis lectus magna fringilla. Malesuada fames ac turpis egestas. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Erat pellentesque adipiscing commodo elit. Vel quam elementum pulvinar etiam. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Eu ultrices vitae auctor eu augue ut. Imperdiet proin fermentum leo vel orci porta non pulvinar.
+## 寶寶一定做得好！
 
-Volutpat lacus laoreet non curabitur gravida. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Ipsum consequat nisl vel pretium lectus quam. Est lorem ipsum dolor sit amet. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. Integer eget aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Maecenas sed enim ut sem viverra. Ante in nibh mauris cursus mattis molestie a iaculis at. Vitae auctor eu augue ut lectus arcu bibendum at.
+說到底天下沒有比家長更懂孩子的學習需要。家長可以遵從寶寶的發展特點、興趣，「多鼓勵、多引導」寶寶發展語言天份、一步一腳印、按自己的步伐成長。

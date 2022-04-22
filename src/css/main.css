@@ -1632,4 +1632,10 @@ section.ordinaryschool, section.sen {
 section.ordinaryschool article.snippet, section.sen article.snippet {
   margin-left: 1em;
 }
+
+.fb-share-button {
+  position: relative;
+  top: -.5em;
+  right: -.5em;
+}
 /*# sourceMappingURL=main.css.map */

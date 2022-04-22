@@ -1,21 +1,71 @@
 ---
-title: My Fourth Article
-author: Kevin Powell
+title: 0-6歲發展黃金期 | 右腦開發能力指標 | Rookie Acadmy
+author: 專科及興趣班老師
 date: 2021-06-01
 tags: post
 image: /assets/uploads/article-4.jpg
 imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-canonical: 
-keywords: 
+description: 右腦發展都有黃金期，專家指6歲前正是開發右腦最佳時機。那開發孩子右腦有何作用？原來小朋友右腦發達，長大後更大可能成為「學霸」。早前有報告顯示，原來右腦比較發達的人，智商也比較高！誰不希望仔女能夠成材，期望他們能夠聰明，亦希望孩子們智商、情商都要高。
+canonical: https://rookieacademy.org/my-fourth-article/
+keywords: 學霸,發達,右腦,智商,情商,發展黃金期,形態認知,位置判斷,視覺記憶,思維轉換
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In mollis nunc sed id semper risus in. Elit eget gravida cum sociis natoque penatibus. Enim facilisis gravida neque convallis a cras semper. Eget nulla facilisi etiam dignissim diam quis. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Quisque id diam vel quam elementum pulvinar etiam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Amet risus nullam eget felis eget nunc. Tellus in hac habitasse platea dictumst. Maecenas accumsan lacus vel facilisis volutpat. Lorem ipsum dolor sit amet consectetur adipiscing. A scelerisque purus semper eget duis at tellus at. Magna fringilla urna porttitor rhoncus dolor purus non. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl.
+## 圖形認知能力
+* 準確辨認圓形、三角形、正方形等不同圖形，提高對圖形認知的能力。
 
-Donec adipiscing tristique risus nec feugiat in fermentum. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Duis at tellus at urna condimentum. Commodo odio aenean sed adipiscing diam donec adipiscing. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Augue eget arcu dictum varius. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Ut tellus elementum sagittis vitae. Semper risus in hendrerit gravida rutrum. Eu sem integer vitae justo eget. Urna id volutpat lacus laoreet non curabitur gravida. Tempus imperdiet nulla malesuada pellentesque. Est pellentesque elit ullamcorper dignissim.
+## 形態認知能力
+* 透過認識事物的外在形狀或模樣，提高形態認知能力。
 
-Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Netus et malesuada fames ac. Tortor pretium viverra suspendisse potenti. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Quis vel eros donec ac odio tempor. Auctor urna nunc id cursus metus aliquam eleifend mi in. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Turpis massa tincidunt dui ut. Eu facilisis sed odio morbi quis commodo. Pellentesque habitant morbi tristique senectus et netus et. Facilisis volutpat est velit egestas dui id. Elementum facilisis leo vel fringilla est ullamcorper eget. Tempor nec feugiat nisl pretium fusce. Proin sagittis nisl rhoncus mattis rhoncus urna. Luctus venenatis lectus magna fringilla. Ut venenatis tellus in metus vulputate eu scelerisque felis. Velit aliquet sagittis id consectetur. Erat velit scelerisque in dictum non consectetur. Pulvinar elementum integer enim neque volutpat ac.
+## 對稱認知能力
+* 透過觀察，學會判斷以一中心線為軸，圖形或物體的各部分在大小、形狀和排列上具有一一對應的關係。
 
-Commodo nulla facilisi nullam vehicula ipsum a. Posuere urna nec tincidunt praesent. Eleifend donec pretium vulputate sapien nec. Dolor sit amet consectetur adipiscing. Blandit libero volutpat sed cras ornare arcu dui vivamus. Cras ornare arcu dui vivamus arcu felis bibendum. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Maecenas accumsan lacus vel facilisis volutpat est velit. Lectus sit amet est placerat in egestas erat imperdiet. Augue lacus viverra vitae congue eu. Et pharetra pharetra massa massa. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Id faucibus nisl tincidunt eget nullam non nisi est sit. Id porta nibh venenatis cras sed felis. Velit egestas dui id ornare arcu odio ut sem. Libero justo laoreet sit amet cursus sit amet. Mi quis hendrerit dolor magna eget est lorem.
+## 空間知覺能力
+* 了解基本的立體圖形和物體的外形特徵，正確感知和判斷物體在空間中的狀態。
 
-Feugiat in ante metus dictum at. Nunc sed velit dignissim sodales. Odio aenean sed adipiscing diam donec adipiscing. Diam quam nulla porttitor massa id neque aliquam. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Elementum curabitur vitae nunc sed. Pretium fusce id velit ut tortor pretium viverra suspendisse potenti. Nisi vitae suscipit tellus mauris a. Id aliquet lectus proin nibh. Tortor posuere ac ut consequat semper viverra. Nunc consequat interdum varius sit. Dictum fusce ut placerat orci. Nibh praesent tristique magna sit amet purus gravida quis. Donec ultrices tincidunt arcu non sodales neque sodales ut.
+## 位置判斷能力
+* 透過認識和區分物體的上下、左右、前後等不同方位之間的關係，判斷出物體的位置。
+
+## 觀察能力
+* 透過觀察事物的表現或特點，提高觀察能力。
+
+## 辨別能力
+* 從兩個或兩個以上的事物或現象中找出不同點，提高辨別能力。
+
+## 視覺記憶能力
+* 透過視覺觀察，記憶圖形、物體或現象，提高視覺記憶力。
+
+## 組合能力
+* 將兩種或兩種以上的物體組合起來成為新的物體，提高組織能力。
+
+## 推斷能力
+* 根據已知的事實和前提來推測出結論。
+
+## 規律分析能力
+* 透過對語言、數字、圖形等的觀察與分析，發現其中的規律，訓練規律分析能力。
+
+## 演繹能力
+* 按照一定的規律，重現缺損事物的全貌，提高演繹能力。
+
+## 思維轉換能力
+* 用象徵性的符號或圖形對事物進行置換，提高思維轉換能力。
+
+## 創意表達能力
+* 透過多種創造性的方式，表達自己的構思與想法。
+
+## 解決問題能力
+* 根據問題的現象或特徵，找出相應的辦法來解決問題。
+
+## 個性思維能力
+* 用與別人不同的思維方式思考問題，培養具有個性的思維能力。
+
+## 融會貫通能力
+* 能夠靈活的使用多種方法解決一個問題，或用一種方法解決多個類似的問題。
+
+## 換位思考能力
+* 透過分析他人的觀點解決問題，或站在對方的角度考慮問題，理解他人的感受和認知，提高換位思考能力。
+
+## 集中注意力
+* 透過專心聆聽內容、看圖形、思考解題方法，幫助集中注意力。
+
+## 協調能力
+* 透過各種練習，訓練肢體之間的協調運動能力，保持平衡。

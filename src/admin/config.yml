@@ -13,7 +13,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - { label: "標題", name: "title", widget: "string" }
-      #- { label: "Canonical", name: "canonical", widget: "string" }
+      - { label: "Canonical", name: "canonical", widget: "string", default: "https://rookieacademy.org/"}
       - { label: "摘要", name: "description", widget: "string" }
       - { label: "搜尋關鍵字詞", name: "keywords", widget: "string" }
       - { label: "作者", name: "author", widget: "string" }
