@@ -1,21 +1,87 @@
 ---
-title: My Fifth Article
-author: Kevin Powell
+title: 左腦開發能力指標
+description: 一、左腦和右腦的區別大腦就是你自己的智囊；科學研究證明，大腦分為左半球和右半球；左半球是管人的右邊的一切活動的，一般左腦具有語言、概念、數字、分析、邏輯推理等功能；右半球是管人的左邊的一切活動的，右腦具有音樂、繪畫、空間幾何、想像、綜合等功能。
+keywords: 開發左腦, 邏輯推理, 詞彙發展, 充份利用左腦, 語言理解, 表達
+author: 一般專科及興趣小組老師
 date: 2021-06-15
-tags: post
-image: /assets/uploads/article-5.jpg
-imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-canonical: 
-keywords: 
+imageAlt: 注專左腦開發
+canonical: null
+tags:
+  - post
+image: /assets/uploads/article-5795cba0385ec.jpg
 ---
+## 詞彙水平
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Ornare aenean euismod elementum nisi quis eleifend. Amet tellus cras adipiscing enim eu turpis. Nisi vitae suscipit tellus mauris. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Mi eget mauris pharetra et. Et tortor at risus viverra. Id eu nisl nunc mi ipsum faucibus vitae. Malesuada nunc vel risus commodo viverra maecenas. Et netus et malesuada fames ac turpis egestas sed. Massa vitae tortor condimentum lacinia quis. Eu augue ut lectus arcu bibendum at varius. Enim nec dui nunc mattis enim ut tellus elementum sagittis. In fermentum et sollicitudin ac orci. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Id porta nibh venenatis cras sed felis eget velit. In hac habitasse platea dictumst.
+* 能掌握常用詞彙，並靈活運用。
 
-Amet est placerat in egestas erat imperdiet sed euismod. Elementum pulvinar etiam non quam. Pharetra convallis posuere morbi leo urna molestie. Varius duis at consectetur lorem donec massa. Id semper risus in hendrerit gravida rutrum quisque. Adipiscing elit pellentesque habitant morbi tristique senectus. Tortor pretium viverra suspendisse potenti. Aenean et tortor at risus viverra adipiscing at in. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Eu augue ut lectus arcu bibendum at varius vel pharetra. Facilisis magna etiam tempor orci eu. Habitant morbi tristique senectus et. Eu facilisis sed odio morbi quis commodo. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. Nulla posuere sollicitudin aliquam ultrices sagittis. At imperdiet dui accumsan sit amet nulla. Nec feugiat in fermentum posuere urna nec tincidunt praesent semper. Tortor id aliquet lectus proin nibh. Tellus at urna condimentum mattis.
+## 寫作能力
 
-Urna id volutpat lacus laoreet non curabitur gravida arcu ac. Accumsan tortor posuere ac ut consequat. Suspendisse sed nisi lacus sed viverra tellus. Amet nulla facilisi morbi tempus. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Maecenas accumsan lacus vel facilisis volutpat. Fringilla phasellus faucibus scelerisque eleifend. Enim neque volutpat ac tincidunt vitae semper quis. Id eu nisl nunc mi ipsum. Ligula ullamcorper malesuada proin libero nunc. Bibendum at varius vel pharetra vel turpis nunc eget.
+* 能夠透過文字的方式表達自己的觀點，並有一定的創作能力。
 
-Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Convallis a cras semper auctor. Congue eu consequat ac felis donec et odio. Maecenas ultricies mi eget mauris pharetra. Vel facilisis volutpat est velit egestas dui id ornare. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Lectus nulla at volutpat diam ut venenatis tellus in. Pellentesque massa placerat duis ultricies. Augue eget arcu dictum varius duis at consectetur lorem.
+## 語言理解能力
 
-Felis donec et odio pellentesque diam volutpat commodo. Donec massa sapien faucibus et. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. A diam sollicitudin tempor id eu nisl. Orci nulla pellentesque dignissim enim sit amet venenatis urna cursus. Cursus turpis massa tincidunt dui. Luctus accumsan tortor posuere ac ut consequat semper viverra. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Leo vel fringilla est ullamcorper. Auctor elit sed vulputate mi sit amet mauris. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.
+* 能夠明白、領會對方用語言和文字傳遞的訊息。
+
+## 語言組織能力
+
+* 能夠將語言按照一定的語法組合在一起，表達一定的意思。
+
+## 語言表達能力
+
+* 能夠將自己的想法和觀點用語言表達出來。
+
+## 分類能力
+
+* 能根據事物的特點，分別進行歸類。
+
+## 判斷能力
+
+* 肯定或否定某種事物的存在，或指明它是否具有某種屬性。
+
+## 對比能力
+
+* 透過把兩種或兩種以上的事物進行進比，來確定它們的異同。
+
+## 分析能力
+
+* 可以把一種事物分成簡單的組成部分，找出各部份本質屬性以及內在聯繫。
+
+## 歸納能力
+
+* 能根據多個事實式者條件，把各種不同而有關聯的事物組合在一起。
+
+## 聯繫能力
+
+* 了解事物內部或者事物之間的相互關係，並能以此分析事物。
+
+## 計數能力
+
+* 能運用多種方式計算數量。
+
+## 辨別能力
+
+* 透過分辨對與錯、相同與不同、合適與否，提高辨別事物的能力。
+
+## 演算能力
+
+* 依照數學法則，透過加、減、乘、除等運算方法，得出正確的結果。
+
+## 排序能力
+
+* 根據事物某種量的差異或一定的規則，將其按順序排列起來。
+
+## 基礎能力
+
+* 透過學習自然界和社會等各方面的知識，提高對世界認識的基礎能力。
+
+## 判斷是非能力
+
+* 能夠根據一定的標準，判斷事理的正確性或者錯誤處。
+
+## 注意力
+
+* 透過專心的聽內容、看圖形、思考解題方法，幫助集中注意力。
+
+## 聽覺記憶能力
+
+* 透過聽覺來記憶物體或現象。
