@@ -1,21 +1,36 @@
 ---
-title: My First Article
-author: Kevin Powell
+description: 有關觸覺 (例如：按摩刷、尋寶遊戲、震盪器)、本體覺 (例如：按壓、呼吸運氣、吸啜吹、重力遊戲)、前庭平衡覺
+  (例如：搖盪鞦韆、攀爬、彈跳、平衡木)的活動，配合五官 (例如：聽覺、視覺、嗅覺、味覺) 加以整合、組織和處理，及時作出適切的反應。
+keywords: 觸覺, 本體覺, 前庭刺激, 感統遊戲, 家居訓練, 糖果, 遊戲
+author: 特殊教育老師
 date: 2021-05-01
-tags: ["post", "featured"]
-image: https://picsum.photos/1200/900
-imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-canonical: 
-keywords: 
+imageAlt: 家居感覺統合訓練
+canonical: null
+title: 這些不同感官是怎麼統合的呢？
+tags:
+  - post
+  - featured
+image: /assets/uploads/8b9cf919-2a0c-4f9c-af19-288175fe791a.jpeg
 ---
+以拿取糖果為例，孩子必須先看到糖果的形狀和大小、聞到糖果的香味，判斷糖果與自己的距離、評估伸手與抓取的方式，最後才能拿到糖果。這一連串的環節就是感覺統合的結果。每個動作必須配合得恰到好處，孩子才能成功吃到糖果。在孩子成長的過程中，可以利用一些小遊戲促進感官系統發展。
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel. Donec ultrices tincidunt arcu non sodales. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Pretium quam vulputate dignissim suspendisse in est. Lobortis mattis aliquam faucibus purus in massa tempor nec. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Vulputate eu scelerisque felis imperdiet proin. Nisl nisi scelerisque eu ultrices.
+### 適合0～1歲玩的感統遊戲
 
-Enim nulla aliquet porttitor lacus luctus accumsan. Vulputate mi sit amet mauris commodo quis. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Placerat orci nulla pellentesque dignissim. Consequat mauris nunc congue nisi. Nec nam aliquam sem et tortor consequat. Consequat semper viverra nam libero justo laoreet sit amet. Id interdum velit laoreet id donec. Turpis in eu mi bibendum neque. Tincidunt vitae semper quis lectus. Suscipit adipiscing bibendum est ultricies integer quis auctor. Posuere urna nec tincidunt praesent semper. Sagittis id consectetur purus ut faucibus pulvinar elementum. Diam maecenas ultricies mi eget mauris. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Dui sapien eget mi proin sed.
+【觸覺】：觸摸不同材質的布書。\
+【視覺及聽覺】：看黑白圖片、看鬼臉，用表情提起興趣。\
+【本體覺】：擁抱擠壓、過山洞，幫助孩子更加了解自己的身體。\
+【前庭覺】：規律搖擺能夠帶給孩子安定的感覺，提升追視能力與警醒度。飛高高可以讓孩子獲得活化的前庭刺激。\
+【手眼協調】：搖手搖鈴、玩拉繩玩具練習使觸覺和本體覺抓握物品、整合觸覺及視覺訊息、嘗試揮動、敲打等不同的玩法。
 
-In iaculis nunc sed augue lacus. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Consectetur adipiscing elit ut aliquam. Tortor consequat id porta nibh venenatis cras sed. Integer enim neque volutpat ac tincidunt. Pellentesque pulvinar pellentesque habitant morbi. Ut enim blandit volutpat maecenas. Risus quis varius quam quisque id. Turpis tincidunt id aliquet risus. Congue eu consequat ac felis donec.
+### 適合1～2歲玩的感統遊戲
 
-Aliquam vestibulum morbi blandit cursus risus at. Malesuada fames ac turpis egestas sed tempus. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Enim diam vulputate ut pharetra sit amet aliquam. Est ante in nibh mauris cursus mattis. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Nec ultrices dui sapien eget mi proin sed libero enim. Sed sed risus pretium quam vulputate. Sit amet luctus venenatis lectus magna.
+【觸覺】：尋寶遊戲，找出玩偶或貼紙\
+【聽覺】：將聲光玩具藏起來，再引導孩子找出來，提升聽覺區辨的能力。\
+【本體覺】：丟球、撈魚練習可控制手部力道。\
+【前庭覺】：盪鞦韆、騎搖搖馬可以培養孩子「將姿勢回正」的能力。
 
-Mauris nunc congue nisi vitae suscipit tellus mauris. Vitae et leo duis ut. Arcu cursus euismod quis viverra nibh. Amet mauris commodo quis imperdiet. Condimentum lacinia quis vel eros donec. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Faucibus nisl tincidunt eget nullam. Cursus metus aliquam eleifend mi in nulla. Ut placerat orci nulla pellentesque dignissim enim sit amet. Lobortis feugiat vivamus at augue eget arcu dictum. Nunc faucibus a pellentesque sit amet porttitor. Quis varius quam quisque id diam vel quam elementum pulvinar.
+### 適合2～3歲玩的感統遊戲
+
+【觸覺】：揉黏土、踩沙子、用手指塗鴉可以幫助強化觸覺的區辨能力。\
+【眼球追視】：丟接皮球、拍打氣球幫助孩子練習控制眼球肌肉的能力、提升視覺與環境覺察力。\
+【前庭覺】：前庭覺與姿勢的控制及平衡能力有著密切關聯；側滾、玩滑板車有助孩子練習控制身體，走平衡木、跳輪胎則可以讓孩子鍛煉平衡能力。
