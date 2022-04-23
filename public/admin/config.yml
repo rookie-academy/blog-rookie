@@ -6,9 +6,9 @@ media_folder: "public/assets/uploads"
 public_folder: "/assets/uploads"
 locale: "zh-Hant"
 collections:
-  - name: "blog"
+  - name: "實用資源"
     label: "文章"
-    folder: "src/blog"
+    folder: "src/實用資源"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
