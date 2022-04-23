@@ -332,13 +332,13 @@ section.about-section p {
   line-height: 2em;
 }
 
-section.about-section .overlapping-bridge {
-  right: -1em;
-  padding: 1.2em 1.7em;
+section.about-section .overlapping-bridge p {
+  line-height: 1.6em;
 }
 
-section.about-section .overlapping-bridge p {
-  line-height: normal;
+section.about-section .overlapping-bridge a {
+  color: white;
+  text-decoration: none;
 }
 
 section.about-section .overlapping-bridge .col-one {
@@ -701,20 +701,6 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 920px) {
-  .card .snippet {
-    color: var(--primary-color);
-    background: #eeeeeedf;
-  }
-  .card a {
-    text-decoration: none;
-    color: white;
-  }
-  .card .snippet__title {
-    color: var(--primary-color);
-  }
-  .card li ::before {
-    content: none;
-  }
   .snippet {
     display: -ms-grid;
     display: grid;
@@ -871,7 +857,7 @@ nav li a:hover {
     top: .7em;
   }
   .overlapping-bridge p {
-    font-size: var(--fs-200);
+    font-size: var(--fs-300);
   }
   .recent-news {
     width: 50%;

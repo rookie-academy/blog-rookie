@@ -293,15 +293,17 @@ section.about-section {
         line-height: 2em;
     }
         .overlapping-bridge {
-        right:-1em;
-        padding: 1.2em 1.7em;
+
         //display: grid;
         //grid-template-columns: repeat(4,auto);
 
         p {
-            line-height: normal;
+            line-height: 1.6em;
         }
-
+        a {
+            color: white;
+            text-decoration: none;
+        }
         .col-one {
             background: #dd7676;
             padding: .7em 2.4em 1.2em 2.4em;
@@ -644,25 +646,8 @@ nav {
 
 
 @media only screen and (min-width: 920px) {
-    .card {
-        .snippet {
-            color: var(--primary-color);
-            background: #eeeeeedf;
-        }
-        a {
-            text-decoration: none;
-            color: white;
-        }
-        .snippet__title {
-            color: var(--primary-color);
-        }
-        li {
-            ::before {
-                content: none;
-                
-            }
-        }
-    }
+
+    
     .snippet {
         display: grid;
         grid-template-columns: 1fr 25em;
@@ -890,13 +875,12 @@ nav {
            //}
         //}
     //}
-
     .overlapping-bridge {
         display: flex;
         position: relative;
         top: .7em;
         p {
-            font-size: var(--fs-200);
+            font-size: var(--fs-300);
         }
     }
 
@@ -939,6 +923,7 @@ nav {
         margin: 0 auto;
         width: 1200px;
     }
+
     .col-one {
         width: 250px;
     }
