@@ -38,6 +38,7 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #f2f2f2;
   min-height: 100vh;
   overflow-x: hidden;
   min-height: 100vh;
@@ -245,7 +246,7 @@ body svg {
 }
 
 section.hero {
-  background: url("/assets/hero-img-2.png"), url("/assets/hero-img.png");
+  background: url("/assets/hero-img-2.jpg"), url("/assets/hero-img.png");
   background-size: cover;
   background-position-x: 100%;
   background-blend-mode: soft-light;

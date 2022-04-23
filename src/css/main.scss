@@ -37,6 +37,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f2f2f2;
     main {
         background: #f2f2f2;
     }
@@ -219,10 +220,10 @@ body {
 }
 
 section.hero {
-    background: url('/assets/hero-img-2.png'),url('/assets/hero-img.png');
+    background: url('/assets/hero-img-2.jpg'),url('/assets/hero-img.png');
     background-size: cover;
     background-position-x: 100%;
-    background-blend-mode: soft-light;
+    background-blend-mode:soft-light;
     text-align: center;
     .left-col {
         padding: 3rem 0 0 0;
