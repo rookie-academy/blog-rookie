@@ -1,7 +1,3 @@
 User-agent: *
-Disallow: /admin/
-
-
-DaumWebMasterTool:fe46641ef2e4f3f25544ad9d70c6029df24dd184fad54154abaa3c263cf5a09a:443TDua2oBhkmf8nLnc1jg==
-
+Allow: /
 Sitemap: https://rookieacademy.org/sitemap.xml

@@ -17,7 +17,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('./src/robots.txt');
 
-    //eleventyConfig.addPassthroughCopy('./src/sitemap.xml');
+    eleventyConfig.addPassthroughCopy('./src/sitemap.xml');
 
     eleventyConfig.addPassthroughCopy('./src/admin');
 
@@ -25,7 +25,11 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addFilter("postDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
-      });
+    });
+
+    eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+        return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+    });
 
     return {
         dir: {
