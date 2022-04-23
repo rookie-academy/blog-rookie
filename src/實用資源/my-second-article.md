@@ -1,15 +1,15 @@
 ---
+title: 幼兒發展過程3大重要感官系統您不可不知？！
+canonical: https://rookieacademy.org/%E5%AF%A6%E7%94%A8%E8%B3%87%E6%BA%90/my-second-article/
 description: 七種感官系統中，觸覺、本體覺和前庭覺的影響力比較大，這三種感官怎樣在人體中運作呢？
-keywords: "前庭覺,本體覺,觸覺,幼兒發展,感覺統合"
+keywords: 前庭覺,本體覺,觸覺,幼兒發展,感覺統合
 author: 特殊教育老師
 date: 2021-05-15
-imageAlt: 幼兒發展過程3大重要感官系統您一定要知
-canonical: https://rookieacademy.org/blog/my-second-article/
-title: 幼兒發展過程3大重要感官系統您不可不知？！
 tags:
   - post
   - featured
 image: /assets/uploads/8c52bf6a-bc1f-4e97-8382-d6ad5585e630.png
+imageAlt: 幼兒發展過程3大重要感官系統您一定要知
 ---
 ![觸覺發展器官](/assets/uploads/94f3cc28-8207-4b88-a1a6-1bc49d8ffc27.jpeg "觸覺發展器官")
 
