@@ -29,9 +29,9 @@ collections:
       - { label: "圖片標題", name: "imageAlt", widget: "string" }
       - { label: "內容", name: "body", widget: "markdown" }
       #- { label: "Upload Leaflet", name: "leaflet", widget: "string" }
-  - name: "class"
+  - name: "課程簡介"
     label: "課程/興趣班"
-    folder: "src/class"
+    folder: "src/課程簡介"
     create: true
     slug: "{{slug}}" # Filename template, e.g., title.md
     fields:
@@ -52,9 +52,9 @@ collections:
       - { label: "圖片標題", name: "imageAlt", widget: "string" }
       - { label: "內容", name: "body", widget: "markdown" }
       - { label: "上傳單張", name: "leaflet", widget: "string" }
-  - name: "Card"
-    label: "卡紙"
-    folder: "src/card"
+  - name: "關於我們"
+    label: "關於RookieAcademy"
+    folder: "src/關於我們"
     create: true
     slug: "{{slug}}" # Filename template, e.g., title.md
     fields:
