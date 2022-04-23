@@ -1440,7 +1440,7 @@ section.programmes-list h1 {
   }
 }
 
-section.weather-policy-section .rtable {
+section.weather-policy-section .rtable, .ordinaryschool-en .rtable, .sen-en .rtable {
   display: table;
   width: auto;
   margin: auto;
@@ -1448,7 +1448,7 @@ section.weather-policy-section .rtable {
   border: var(--secondary-color) solid 2px;
 }
 
-section.weather-policy-section .rtable-caption {
+section.weather-policy-section .rtable-caption, .ordinaryschool-en .rtable-caption, .sen-en .rtable-caption {
   display: table-caption;
   text-align: center;
   width: auto;
@@ -1458,7 +1458,7 @@ section.weather-policy-section .rtable-caption {
   padding: .3em 0 .3em 0;
 }
 
-section.weather-policy-section .rtable-head-row {
+section.weather-policy-section .rtable-head-row, .ordinaryschool-en .rtable-head-row, .sen-en .rtable-head-row {
   display: table-header-group;
   text-align: center;
   width: auto;
@@ -1468,21 +1468,21 @@ section.weather-policy-section .rtable-head-row {
   font-size: var(--fs-400);
 }
 
-section.weather-policy-section .rtable-div-row {
+section.weather-policy-section .rtable-div-row, .ordinaryschool-en .rtable-div-row, .sen-en .rtable-div-row {
   display: table-row;
   text-align: center;
   width: auto;
   background: #f2e7eb;
 }
 
-section.weather-policy-section .rtable-cell {
+section.weather-policy-section .rtable-cell, .ordinaryschool-en .rtable-cell, .sen-en .rtable-cell {
   display: table-cell;
   border: white double 1px;
   padding: .3em;
   vertical-align: middle;
 }
 
-section.weather-policy-section .rtable-cell a {
+section.weather-policy-section .rtable-cell a, .ordinaryschool-en .rtable-cell a, .sen-en .rtable-cell a {
   font-weight: bold;
   color: var(--primary-color);
   text-decoration: none;
@@ -1490,16 +1490,16 @@ section.weather-policy-section .rtable-cell a {
   font-weight: bold;
 }
 
-section.weather-policy-section .rtable-cell a:hover {
+section.weather-policy-section .rtable-cell a:hover, .ordinaryschool-en .rtable-cell a:hover, .sen-en .rtable-cell a:hover {
   opacity: .7;
   cursor: pointer;
 }
 
-section.weather-policy-section .desc {
+section.weather-policy-section .desc, .ordinaryschool-en .desc, .sen-en .desc {
   width: 50%;
 }
 
-section.weather-policy-section .rtable-cell {
+section.weather-policy-section .rtable-cell, .ordinaryschool-en .rtable-cell, .sen-en .rtable-cell {
   font-size: var(--fs-300);
 }
 
