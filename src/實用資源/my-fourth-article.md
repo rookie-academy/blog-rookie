@@ -1,6 +1,6 @@
 ---
 title: 0-6歲發展黃金期 | 右腦開發能力指標 | Rookie Academy
-canonical: https://rookieacademy.org/my-fourth-article/
+canonical: https://rookieacademy.org/%E5%AF%A6%E7%94%A8%E8%B3%87%E6%BA%90/my-fourth-article/
 description: 右腦發展都有黃金期，專家指6歲前正是開發右腦最佳時機。那開發孩子右腦有何作用？原來小朋友右腦發達，長大後更大可能成為「學霸」。早前有報告顯示，原來右腦比較發達的人，智商也比較高！誰不希望仔女能夠成材，期望他們能夠聰明，亦希望孩子們智商、情商都要高。
 keywords: 學霸,發達,右腦,智商,情商,發展黃金期,形態認知,位置判斷,視覺記憶,思維轉換
 author: 專科及興趣班老師
