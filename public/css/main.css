@@ -10,6 +10,24 @@
   --fs-700: 3rem;
 }
 
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 textarea.comments {
   resize: none;
 }
@@ -20,9 +38,18 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #f2f2f2;
   min-height: 100vh;
   overflow-x: hidden;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+body p {
+  font-size: var(--fs-400);
+}
+
+body main {
+  background: #f2f2f2;
 }
 
 body .menu, body .close {
@@ -159,7 +186,7 @@ body svg {
 .navbar .company-logo img {
   position: relative;
   top: 0.6rem;
-  right: 1.5em;
+  right: 1em;
 }
 
 .navbar .free-chat-cta {
@@ -272,7 +299,7 @@ section.hero .hero-img-zh {
 section.about-section {
   background: var(--secondary-color);
   color: white;
-  padding: 3em 2.7em 3em 2.7em;
+  padding: 3em 1em;
 }
 
 section.about-section h1.about-section-caption {
@@ -301,9 +328,7 @@ section.about-section .punchline h2 {
 }
 
 section.about-section p {
-  margin-right: 3em;
-  margin-bottom: 2em;
-  line-height: 1.8em;
+  line-height: 2em;
 }
 
 section.about-section .overlapping-bridge {
@@ -348,21 +373,19 @@ section.core-value-section {
   background: var(--primary-color);
 }
 
+section.core-value-section .container {
+  padding: 3em 1em;
+}
+
 section.core-value-section h1.core-value-caption {
   text-decoration: underline;
-  padding-top: 3em;
-  margin-top: 0em;
-  margin-left: 1.8em;
-  margin-bottom: 2.2em;
   font-size: var(--fs-600);
 }
 
 section.core-value-section ul.core-values-list {
   margin-left: 1.8em;
-  padding-left: 1.6em;
-  padding-right: 3em;
+  padding-right: 2.2em;
   padding-top: 1em;
-  padding-bottom: 4em;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
@@ -390,7 +413,7 @@ section.core-value-section ul.core-values-list li:before {
 }
 
 section.mission-section {
-  padding: 3em 2.7em 3em 2.7em;
+  padding: 3em 1em;
 }
 
 section.mission-section h1 {
@@ -413,9 +436,7 @@ section.mission-section .punchline h2 {
 }
 
 section.mission-section p {
-  margin-right: 3em;
-  margin-bottom: 2em;
-  line-height: 1.8em;
+  line-height: 2em;
 }
 
 section.contact-us {
@@ -450,7 +471,7 @@ section.contact-us .container .contact-right iframe {
 }
 
 section.services-section {
-  padding: 3em 2.7em 3em 2.7em;
+  padding: 3em 1em;
 }
 
 section.services-section h1 {
@@ -473,9 +494,7 @@ section.services-section .punchline h2 {
 }
 
 section.services-section p {
-  margin-right: 3em;
-  margin-bottom: 2em;
-  line-height: 1.8em;
+  line-height: 2em;
 }
 
 section.services-section a.more-info-cta {
@@ -492,7 +511,7 @@ section.services-section a.more-info-cta {
 section.working-with-us-section {
   background: var(--secondary-color);
   color: white;
-  padding: 3em 2.7em 3em 2.7em;
+  padding: 3em 1em;
 }
 
 section.working-with-us-section h1 {
@@ -510,9 +529,7 @@ section.working-with-us-section .punchline h2 {
 }
 
 section.working-with-us-section p {
-  margin-right: 3em;
-  margin-bottom: 2em;
-  line-height: 1.8em;
+  line-height: 2em;
 }
 
 section.working-with-us-section .work-cta {
@@ -530,13 +547,14 @@ section.working-with-us-section .work-cta {
   background: var(--tertiary-color);
   margin-top: 0em;
   padding-top: 2em;
-  padding: 3em 2.7em 3em 2.7em;
+  padding: 3em 1em;
   color: white;
 }
 
 .footer a {
   text-decoration: none;
   color: white;
+  font-size: var(--fs-400);
 }
 
 .footer .recent-news h1 {
@@ -842,6 +860,7 @@ nav li a:hover {
 @media only screen and (min-width: 1200px) {
   main {
     margin: 0 auto;
+    max-width: 1200px;
   }
   .overlapping-bridge {
     display: -webkit-box;
@@ -1197,24 +1216,23 @@ section.faq-section ul.faq-list {
 
 section.faq-section ul.faq-list li {
   font-size: var(--fs-400);
-  padding: 0 3em;
+  margin: 0 1em;
   letter-spacing: .03em;
   margin-bottom: 2em;
-  margin-left: 1em;
   text-indent: 1.5em;
   position: relative;
 }
 
 section.faq-section ul.faq-list li:before {
   content: '';
-  left: 3em;
+  left: .1em;
   top: .1em;
   position: absolute;
   width: 20px;
   height: 20px;
   background-image: url("/assets/fa-bullet-point.svg");
   background-size: cover;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 section.weather-policy-section {
@@ -1524,7 +1542,7 @@ ul.level-1 a:hover {
 section.blog {
   background: f2f2f2;
   color: black;
-  padding: 3em 2.7em 3em 2.7em;
+  padding: 3em 1em;
 }
 
 section.blog svg {
@@ -1554,9 +1572,7 @@ section.blog .punchline h2 {
 }
 
 section.blog p {
-  margin-right: 3em;
-  margin-bottom: 2em;
-  line-height: 1.8em;
+  line-height: 2em;
 }
 
 section.blog .view-blog {
