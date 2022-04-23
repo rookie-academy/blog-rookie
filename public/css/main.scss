@@ -220,10 +220,10 @@ body {
 }
 
 section.hero {
-    background: url('/assets/hero-img-2.jpg'),url('/assets/hero-img.png');
+    background: url('/assets/hero-img-2.png'),url('/assets/hero-img.png');
     background-size: cover;
     background-position-x: 100%;
-    background-blend-mode:soft-light;
+    background-blend-mode: color;
     text-align: center;
     .left-col {
         padding: 3rem 0 0 0;
