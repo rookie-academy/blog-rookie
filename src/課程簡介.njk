@@ -13,7 +13,16 @@ keywords:
     <p>協助學童解決學習難題和心理情緒，以及行為上的表現，為學童度身訂做適合他們的讀書方法，減輕家長的困惑和苦惱。</p>
     <p>運作程序：甄別測驗、個人輔導、小組課程</p>
 </section>
-
+<section class="sen">
+    <div class="container">
+        <h1 class="section-title">SEN特殊教育需要課程</h1>
+        <ul role="list">
+            {% for class in collections.sen | reverse %}
+                {% include "class-snippet.njk" %}
+            {% endfor %}
+        <ul>
+    </div>
+</section>
 <section class="ordinaryschool">
     <div class="container">
         <h1 class="section-title">皇牌特色課</h1>
@@ -55,16 +64,6 @@ keywords:
         <h1 class="section-title">其他課程</h1>
         <ul role="list">
             {% for class in collections.other | reverse %}
-                {% include "class-snippet.njk" %}
-            {% endfor %}
-        <ul>
-    </div>
-</section>
-<section class="sen">
-    <div class="container">
-        <h1 class="section-title">SEN特殊教育需要課程</h1>
-        <ul role="list">
-            {% for class in collections.sen | reverse %}
                 {% include "class-snippet.njk" %}
             {% endfor %}
         <ul>
