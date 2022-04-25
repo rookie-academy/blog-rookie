@@ -10,6 +10,7 @@ imageAlt:
 description: 學拼音有助串寫，幫助默字、增強拼讀的技巧，有趣學英語 | 學習學習內容：Alphabets, Short Vowels, Long Vowels, Consonant Blends, Letter Combinations
 leafet: /assets/%E8%AA%8D%E5%AD%97%E8%AD%98%E8%AE%80%E3%80%81Phonics%E6%8B%BC%E9%9F%B3%E4%B8%B2%E5%AD%97.pdf
 canonical: https://rookieacademy.org/phonics%E6%8B%BC%E9%9F%B3%E4%B8%B2%E5%AD%97/
+eleventyExcludeFromCollections: true
 ---
 
 

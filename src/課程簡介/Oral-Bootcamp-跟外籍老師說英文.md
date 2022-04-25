@@ -8,7 +8,7 @@ tags:
 image: /assets/課程/oral-bootcamp-跟外籍老師說英語.jpg
 imageAlt: oral bootcamp 跟外籍老師說英語
 description: 課程由經驗豐富的老師帶領，在輕鬆愉快的氛圍中與學生以英文交流，適合幼小學生加入。還提供一對一的私人課程。授課方式為現場授課、上門授課和在線授課。
-leafet: /assets/課程/oral-bootcamp-跟外籍老師說英語.pdf
+leaflet: /assets/課程/oral-bootcamp-跟外籍老師說英語.pdf
 canonical: https://rookieacademy.org/%E8%AA%B2%E7%A8%8B%E7%B0%A1%E4%BB%8B/oral-bootcamp-%E8%B7%9F%E5%A4%96%E7%B1%8D%E8%80%81%E5%B8%AB%E8%AA%AA%E8%8B%B1%E6%96%87/
 ---
 
