@@ -1626,6 +1626,8 @@ h1.section-title {
           box-shadow: #A3A3A3 .3em .3em 1em;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: right top;
+     object-position: right top;
 }
 
 section.ordinaryschool, section.sen {
