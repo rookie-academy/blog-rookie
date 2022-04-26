@@ -1608,7 +1608,11 @@ h1.section-title {
 
 .snippet__title {
   grid-area: title;
-  color: white;
+  color: inherit;
+}
+
+.snippet__title a {
+  text-decoration: none;
 }
 
 .snippet__meta {
