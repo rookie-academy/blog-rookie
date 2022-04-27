@@ -7,7 +7,6 @@ author: 特殊教育老師
 date: 2021-05-15
 tags:
   - post
-  - featured
   - 感官系統
   - 精細動作
   - 認知學習

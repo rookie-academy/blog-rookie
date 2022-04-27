@@ -7,7 +7,6 @@ author: 特殊教育老師
 date: 2021-05-01
 tags:
   - post
-  - featured
   - 黃金訓練期
   - 專注力弱
   - 學習困難
