@@ -1,0 +1,19 @@
+---
+title: 英文學習範疇
+layout: base.njk
+description: 本中心英文學程特色為由經驗豐富的老師帶領，近貼學生生活有關主題學習題材，目標為本，利用圖像記憶，把抽象的文字符號變得易讀易明，增加學生識字庫(Word Bank)。課程針對考試基本文法，令學生由淺入深打好根基。在英文寫作方面，本中心為學生們引入外國教材，真正提升寫作能力，範圍涵蓋聽講、識字、文法、概念圖、句子結構、讀寫。
+canonical: https://rookieacademy.org/%E8%8B%B1%E6%96%87%E5%AD%B8%E7%BF%92%E7%AF%84%E7%96%87/
+keywords: 
+---
+<section class="engish-learning-scope">
+    <div class="container">
+        <h1>英文學習範疇</h1>
+        <ul role="list">
+            {% for class in collections.english | reverse %}
+                {% include "class-snippet.njk" %}
+            {% endfor %}
+        <ul>
+    </div>
+</section>
+
+
