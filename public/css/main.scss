@@ -823,7 +823,7 @@ nav {
         width: 920px;
     }
 
-    section.programmes-list {
+    section.programmes-list, section.blog-primary, section.engish-learning-scope {
         .container {
             display: flex;
             h1{
@@ -1345,7 +1345,7 @@ section.work-with-us {
     
 }
 
-section.programmes-list {
+section.programmes-list, section.blog-primary, section.engish-learning-scope {
     background: var(--primary-color);
     color: white;
     text-align: center;
@@ -1356,7 +1356,11 @@ section.programmes-list {
     h1 {
         font-size: var(--fs-600);
     }
-
+    svg {
+        fill: white;
+        width: 7em;
+        margin-top: 1em;
+    }
 }
 
 .more-info {
@@ -1617,8 +1621,11 @@ img, picture {
 
 
 
-section.ordinaryschool, section.sen, section.engish-learning-scope {
+section.ordinaryschool, section.sen, section.blog-snippet {
     margin: 3em 1em;
+    h1 {
+        font-size: var(--fs-500);
+    }
 }
 
 .fb-share-button {

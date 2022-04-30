@@ -834,12 +834,12 @@ nav li a:hover {
     margin: 0 auto;
     width: 920px;
   }
-  section.programmes-list .container {
+  section.programmes-list .container, section.blog-primary .container, section.engish-learning-scope .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  section.programmes-list .container h1 {
+  section.programmes-list .container h1, section.blog-primary .container h1, section.engish-learning-scope .container h1 {
     padding-left: 2em;
   }
 }
@@ -1337,19 +1337,25 @@ section.work-with-us .container input[type="submit"] {
   cursor: pointer;
 }
 
-section.programmes-list {
+section.programmes-list, section.blog-primary, section.engish-learning-scope {
   background: var(--primary-color);
   color: white;
   text-align: center;
   padding: 3em;
 }
 
-section.programmes-list img {
+section.programmes-list img, section.blog-primary img, section.engish-learning-scope img {
   width: 7em;
 }
 
-section.programmes-list h1 {
+section.programmes-list h1, section.blog-primary h1, section.engish-learning-scope h1 {
   font-size: var(--fs-600);
+}
+
+section.programmes-list svg, section.blog-primary svg, section.engish-learning-scope svg {
+  fill: white;
+  width: 7em;
+  margin-top: 1em;
 }
 
 .more-info {
@@ -1631,8 +1637,12 @@ img, picture {
      object-position: right 20%;
 }
 
-section.ordinaryschool, section.sen, section.engish-learning-scope {
+section.ordinaryschool, section.sen, section.blog-snippet {
   margin: 3em 1em;
+}
+
+section.ordinaryschool h1, section.sen h1, section.blog-snippet h1 {
+  font-size: var(--fs-500);
 }
 
 .fb-share-button {
