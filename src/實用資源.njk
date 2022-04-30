@@ -4,10 +4,10 @@ title: Rookie Academy | 實用資源 | 精選文章
 ---
 
 <div class="section container">
-<h1 class="section-title">實用資源 | 精選文章</h1>
+
 
 <ul role="list" class="articles__list flow">
-
+    <h1 class="section-title">實用資源 | 精選文章</h1>
     {% for post in collections.post | reverse %}
     {% include "article-snippet.njk" %}
     {% endfor %}

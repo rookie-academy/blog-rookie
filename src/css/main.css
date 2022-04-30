@@ -1603,10 +1603,6 @@ img, picture {
   margin: 3em 1em;
 }
 
-h1.section-title {
-  margin-left: 1em;
-}
-
 .snippet__title {
   grid-area: title;
   color: inherit;
@@ -1635,12 +1631,8 @@ h1.section-title {
      object-position: right 20%;
 }
 
-section.ordinaryschool, section.sen {
+section.ordinaryschool, section.sen, section.engish-learning-scope {
   margin: 3em 1em;
-}
-
-section.ordinaryschool article.snippet, section.sen article.snippet {
-  margin-left: 1em;
 }
 
 .fb-share-button {
