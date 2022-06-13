@@ -4,8 +4,6 @@ author:
 date: 2021-12-27
 tags: 
      - class
-     - ace
-     - english
 image: /assets/課程/oral-bootcamp-跟外籍老師說英語.jpg
 imageAlt: oral bootcamp 跟外籍老師說英語
 description: 課程由經驗豐富的老師帶領，在輕鬆愉快的氛圍中與學生以英文交流，適合幼小學生加入。還提供一對一的私人課程。授課方式為現場授課、上門授課和在線授課。
