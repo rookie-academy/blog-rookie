@@ -7,10 +7,10 @@ tags:
      - sen
 image: /assets/課程/託管-1.png
 imageAlt: SEN全方位託管
-image1: /assets/課程/SEN全方位託管-2022-06-13.jpg
+image1: /assets/課程/2022年5月版本/SEN全方位託管.jpg
 image1Alt: SEN全方位託管
 description: 為想提升數學水平、或想用英文版本學習數學的學生提供個別學習需要而設計適合他們的課程，增加學習數學的趣味，讓學員有興趣和投入學習，事半功倍。
-leaflet: /assets/課程/SEN全方位託管-2022-06-13.pdf
+leaflet: /assets/課程/2022年5月版本/SEN全方位託管.pdf
 canonical: https://rookieacademy.org/%E8%AA%B2%E7%A8%8B%E7%B0%A1%E4%BB%8B/SEN%E5%85%A8%E6%96%B9%E4%BD%8D%E8%A8%97%E7%AE%A1/
 ---
 
