@@ -849,6 +849,10 @@ nav li a:hover {
     margin: 0 auto;
     max-width: 1200px;
   }
+  .img {
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
+  }
   .overlapping-bridge {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1645,5 +1649,11 @@ section.ordinaryschool h1, section.sen h1, section.blog-snippet h1 {
   position: relative;
   top: -.5em;
   right: -.5em;
+}
+
+.img {
+  aspect-ratio: 4/3;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 /*# sourceMappingURL=main.css.map */

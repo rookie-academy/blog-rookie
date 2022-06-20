@@ -839,7 +839,9 @@ nav {
         margin: 0 auto;
         max-width: 1200px;
     }
-
+    .img {
+        transform: translateX(-20%);
+    }
     //section.services-section {
         //.service-btn{
             //display: grid;
@@ -1632,4 +1634,10 @@ section.ordinaryschool, section.sen, section.blog-snippet {
     position: relative;
     top: -.5em;
     right: -.5em;
+}
+
+.img {
+    aspect-ratio: 4/3;
+    object-fit: scale-down;
+    
 }
