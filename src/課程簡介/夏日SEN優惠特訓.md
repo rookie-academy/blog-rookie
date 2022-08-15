@@ -4,7 +4,7 @@ author:
 date: 2022-06-15
 tags: 
      - class
-     - popular
+permalink: false
 image: /assets/課程/2022年5月版本/夏日-1.png
 imageAlt: 夏日SEN優惠特訓
 image1: /assets/課程/2022年5月版本/夏日SEN優惠特訓.jpg
