@@ -1,7 +1,7 @@
 ---
-title: 2022秋季SEN特訓
+title: Halloween故事氹氹轉
 author:
-date: 2022-09-27
+date: 2022-10-01
 tags: 
      - class
      - ace
@@ -10,7 +10,7 @@ image: /assets/課程/2022年5月版本/故事.png
 imageAlt: 故事
 image1: /assets/課程/2022年5月版本/Halloween故事氹氹轉.jpg
 image1Alt: Halloween故事氹氹轉
-description: 
+description: 趁西洋節日 Halloween 讓小朋友在輕鬆和愉快的環境下學習中文字生字，小朋友期待嚟玩啊！trick or treat
 leaflet: /assets/課程/2022年5月版本/Halloween故事氹氹轉.pdf
 canonical: https://rookieacademy.org/%E8%AA%B2%E7%A8%8B%E7%B0%A1%E4%BB%8B/Halloween%E6%95%85%E4%BA%8B%E6%B0%B9%E6%B0%B9%E8%BD%89/
 ---
