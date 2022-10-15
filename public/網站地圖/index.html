@@ -24,6 +24,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/carousel.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -198,6 +199,10 @@
                         <a href="https://rookieacademy.org/課程簡介/2022秋季優惠/">2022秋季優惠</a>
                     </li>
                 
+                    <li>
+                        <a href="https://rookieacademy.org/課程簡介/Halloween故事氹氹轉/">2022秋季SEN特訓</a>
+                    </li>
+                
             </ul>
             <br>
             <!--<h3>中文學習範疇</h3>
@@ -244,6 +249,14 @@
             <br>
             <h3>SEN特殊教育需要課程</h3>
             <ul class="level-1" role="list" class="articles__list flow">
+                
+                    <li>
+                        <a href="https://rookieacademy.org/課程簡介/Halloween誠徵感統遊戲玩伴/">2022秋季SEN特訓</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://rookieacademy.org/課程簡介/Halloween整色整水/">2022秋季SEN特訓</a>
+                    </li>
                 
                     <li>
                         <a href="https://rookieacademy.org/課程簡介/2022秋季SEN特訓/">2022秋季SEN特訓</a>
@@ -380,6 +393,27 @@
         }
         });
     }
+    </script>
+    <script>
+        /* carousel */
+        const buttons = document.querySelectorAll("[data-carousel-button]")
+
+        buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const offset = button.dataset.carouselButton === "next" ? 1 : -1
+            const slides = button
+            .closest("[data-carousel]")
+            .querySelector("[data-slides]")
+
+            const activeSlide = slides.querySelector("[data-active]")
+            let newIndex = [...slides.children].indexOf(activeSlide) + offset
+            if (newIndex < 0) newIndex = slides.children.length - 1
+            if (newIndex >= slides.children.length) newIndex = 0
+
+            slides.children[newIndex].dataset.active = true
+            delete activeSlide.dataset.active
+        })
+        })
     </script>
 </body>
 </html>

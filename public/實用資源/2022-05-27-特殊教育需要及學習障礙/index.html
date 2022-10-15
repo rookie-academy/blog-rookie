@@ -26,6 +26,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/carousel.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -173,7 +174,7 @@ fjs.parentNode.insertBefore(js, fjs);
     <figcaption class="text-center">
       特殊學習需要兒童
     </figcaption>
-    <div class="text-center"><span>發表日期：May 27, 2022</span> 
+    <div class="text-center"><span>發表日期：2022年5月27日</span> 
     <span>🍿  1 min. read</span>
     <span class="fb-share-button" data-href=https://rookieacademy.org/%E5%AF%A6%E9%9A%9B%E8%B3%87%E6%BA%90/2022-05-27-%E7%89%B9%E6%AE%8A%E6%95%99%E8%82%B2%E9%9C%80%E8%A6%81%E5%8F%8A%E5%AD%B8%E7%BF%92%E9%9A%9C%E7%A4%99 ></span>
     </div>
@@ -319,6 +320,27 @@ fjs.parentNode.insertBefore(js, fjs);
         }
         });
     }
+    </script>
+    <script>
+        /* carousel */
+        const buttons = document.querySelectorAll("[data-carousel-button]")
+
+        buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const offset = button.dataset.carouselButton === "next" ? 1 : -1
+            const slides = button
+            .closest("[data-carousel]")
+            .querySelector("[data-slides]")
+
+            const activeSlide = slides.querySelector("[data-active]")
+            let newIndex = [...slides.children].indexOf(activeSlide) + offset
+            if (newIndex < 0) newIndex = slides.children.length - 1
+            if (newIndex >= slides.children.length) newIndex = 0
+
+            slides.children[newIndex].dataset.active = true
+            delete activeSlide.dataset.active
+        })
+        })
     </script>
 </body>
 </html>

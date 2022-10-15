@@ -24,6 +24,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/carousel.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -166,6 +167,22 @@
             
                 <li>
     <article class="snippet">
+        <h3 class="snippet__title"><a href="/課程簡介/Halloween誠徵感統遊戲玩伴/">2022秋季SEN特訓</a></h3>
+        <p class="snippet__body"></p>
+        <img src="/assets/課程/2022年5月版本/感統遊戲玩伴.png" alt="Halloween誠徵感統遊戲玩伴" class="snippet__image">  
+    </article>  
+</li>
+            
+                <li>
+    <article class="snippet">
+        <h3 class="snippet__title"><a href="/課程簡介/Halloween整色整水/">2022秋季SEN特訓</a></h3>
+        <p class="snippet__body"></p>
+        <img src="/assets/課程/2022年5月版本/秋季SEN-1.png" alt="2022秋季SEN特訓" class="snippet__image">  
+    </article>  
+</li>
+            
+                <li>
+    <article class="snippet">
         <h3 class="snippet__title"><a href="/課程簡介/2022秋季SEN特訓/">2022秋季SEN特訓</a></h3>
         <p class="snippet__body">歡迎參加2022秋SEN訓練班，有興趣的同學請盡快向我們申請學位，先到先得。2022年10月21日前報讀再送專注力綜藝特訓班，額滿即止。</p>
         <img src="/assets/課程/2022年5月版本/秋季SEN-1.png" alt="2022秋季SEN特訓" class="snippet__image">  
@@ -267,6 +284,14 @@
     <div class="container">
         <h1 class="section-title">皇牌特色課</h1>
         <ul role="list">
+            
+                <li>
+    <article class="snippet">
+        <h3 class="snippet__title"><a href="/課程簡介/Halloween故事氹氹轉/">2022秋季SEN特訓</a></h3>
+        <p class="snippet__body"></p>
+        <img src="/assets/課程/2022年5月版本/故事.png" alt="故事" class="snippet__image">  
+    </article>  
+</li>
             
                 <li>
     <article class="snippet">
@@ -465,6 +490,27 @@
         }
         });
     }
+    </script>
+    <script>
+        /* carousel */
+        const buttons = document.querySelectorAll("[data-carousel-button]")
+
+        buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const offset = button.dataset.carouselButton === "next" ? 1 : -1
+            const slides = button
+            .closest("[data-carousel]")
+            .querySelector("[data-slides]")
+
+            const activeSlide = slides.querySelector("[data-active]")
+            let newIndex = [...slides.children].indexOf(activeSlide) + offset
+            if (newIndex < 0) newIndex = slides.children.length - 1
+            if (newIndex >= slides.children.length) newIndex = 0
+
+            slides.children[newIndex].dataset.active = true
+            delete activeSlide.dataset.active
+        })
+        })
     </script>
 </body>
 </html>

@@ -26,6 +26,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/carousel.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -168,7 +169,36 @@
     </div>
 </section>
 <section style="background: white">
-    <a href="/課程簡介/2022秋季SEN特訓/"><img src="/assets/課程/2022年5月版本/秋季SEN特訓優惠.jpg" alt="2022秋季SEN特訓"></a>
+    <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+        <ul data-slides>
+            <li class="slide" data-active>
+                <a href="/課程簡介/2022秋季SEN特訓/">
+                <img src="/assets/課程/2022年5月版本/秋季SEN特訓優惠.jpg" alt="Image #1">
+                </a>
+            </li>
+            <li class="slide">
+                <a href="/課程簡介/Halloween誠徵感統遊戲玩伴/">
+                <img src="/assets/課程/2022年5月版本/Halloween誠徵感統遊戲玩伴.jpg" alt="Image #2">
+                </a>
+            </li>
+            <li class="slide">
+                <a href="/課程簡介/Halloween故事氹氹轉/">
+                <img src="/assets/課程/2022年5月版本/Halloween故事氹氹轉.jpg" alt="Image #3">
+                </a>
+            </li>
+            <li class="slide">
+                <a href="/課程簡介/Halloween整色整水/">
+                <img src="/assets/課程/2022年5月版本/Halloween整色整水.jpg" alt="Image #4">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--<a href="/課程簡介/2022秋季SEN特訓/"><img src="/assets/課程/2022年5月版本/秋季SEN特訓優惠.jpg" alt="2022秋季SEN特訓"></a>
+    <a href="/課程簡介/Halloween誠徵感統遊戲玩伴/"><img src="/assets/課程/2022年5月版本/Halloween誠徵感統遊戲玩伴.jpg" alt="Halloween誠徵感統遊戲玩伴"></a>
+    <a href="/課程簡介/Halloween故事氹氹轉/"><img src="/assets/課程/2022年5月版本/Halloween故事氹氹轉.jpg" alt="Halloween誠徵感統遊戲玩伴"></a>
+    <a href="/課程簡介/Halloween整色整水/"><img src="/assets/課程/2022年5月版本/Halloween整色整水.jpg" alt="Halloween誠徵感統遊戲玩伴"></a>-->
 </section>
 <section class="about-section" id="about-us">
     <div class="container">
@@ -252,7 +282,7 @@
                 <li>
     <article class="snippet">
         <h3 class="snippet__title"><a href="/ADD-ADHD/">專注力不足及過度活躍症如何如何影響患者的生活</a></h3>
-        <p class="snippet__meta">作者： <span>ROOKIE ACADEMY TEAM</span> 發表日期： <span>Jun 17, 2022</span></p>
+        <p class="snippet__meta">作者： <span>ROOKIE ACADEMY TEAM</span> 發表日期： <span>2022年6月17日</span></p>
         <p class="snippet__body">專注力不足/過度活躍症是一種腦部功能發展的障礙，有機會帶來甚他情緒上、學習上和社交上的問題。</p>
         <img src="/assets/uploads/123213.jpg" alt="專注力不足及過度活躍症如何如何影響患者的生活" class="snippet__image">  
     </article>  
@@ -261,7 +291,7 @@
                 <li>
     <article class="snippet">
         <h3 class="snippet__title"><a href="/實用資源/2022-05-27-特殊教育需要及學習障礙/">特殊教育需要及學習障礙</a></h3>
-        <p class="snippet__meta">作者： <span>ROOKIE ACADEMY TEAM</span> 發表日期： <span>May 27, 2022</span></p>
+        <p class="snippet__meta">作者： <span>ROOKIE ACADEMY TEAM</span> 發表日期： <span>2022年5月27日</span></p>
         <p class="snippet__body">您不正視兒童讀寫障礙，它會怎樣影響您的小孩呢?</p>
         <img src="/assets/uploads/126.jpg" alt="特殊學習需要兒童" class="snippet__image">  
     </article>  
@@ -270,7 +300,7 @@
                 <li>
     <article class="snippet">
         <h3 class="snippet__title"><a href="/實用資源/2022-04-21-小測試：自閉症兒童特徵/">小測試：自閉症兒童特徵</a></h3>
-        <p class="snippet__meta">作者： <span>Abby</span> 發表日期： <span>Apr 21, 2022</span></p>
+        <p class="snippet__meta">作者： <span>Abby</span> 發表日期： <span>2022年4月21日</span></p>
         <p class="snippet__body">透過多元化的感覺統合訓練，加上適當的家居訓練，旨在全面改善專注力弱、學習困難、情緒及情緒失控、自傷及攻擊行為等情況，陪伴孩子們度過黃金訓練期。</p>
         <img src="/assets/uploads/187a0fa5-4c1a-4791-b643-26b4200d4b16.jpeg" alt="感覺統合訓練" class="snippet__image">  
     </article>  
@@ -351,6 +381,30 @@
         <h3 class="snippet__title"><a href="/課程簡介/2022秋季SEN特訓/">2022秋季SEN特訓</a></h3>
         <p class="snippet__body">歡迎參加2022秋SEN訓練班，有興趣的同學請盡快向我們申請學位，先到先得。2022年10月21日前報讀再送專注力綜藝特訓班，額滿即止。</p>
         <img src="/assets/課程/2022年5月版本/秋季SEN-1.png" alt="2022秋季SEN特訓" class="snippet__image">  
+    </article>  
+</li>
+        
+            <li>
+    <article class="snippet">
+        <h3 class="snippet__title"><a href="/課程簡介/Halloween故事氹氹轉/">2022秋季SEN特訓</a></h3>
+        <p class="snippet__body"></p>
+        <img src="/assets/課程/2022年5月版本/故事.png" alt="故事" class="snippet__image">  
+    </article>  
+</li>
+        
+            <li>
+    <article class="snippet">
+        <h3 class="snippet__title"><a href="/課程簡介/Halloween整色整水/">2022秋季SEN特訓</a></h3>
+        <p class="snippet__body"></p>
+        <img src="/assets/課程/2022年5月版本/秋季SEN-1.png" alt="2022秋季SEN特訓" class="snippet__image">  
+    </article>  
+</li>
+        
+            <li>
+    <article class="snippet">
+        <h3 class="snippet__title"><a href="/課程簡介/Halloween誠徵感統遊戲玩伴/">2022秋季SEN特訓</a></h3>
+        <p class="snippet__body"></p>
+        <img src="/assets/課程/2022年5月版本/感統遊戲玩伴.png" alt="Halloween誠徵感統遊戲玩伴" class="snippet__image">  
     </article>  
 </li>
         
@@ -457,6 +511,27 @@
         }
         });
     }
+    </script>
+    <script>
+        /* carousel */
+        const buttons = document.querySelectorAll("[data-carousel-button]")
+
+        buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const offset = button.dataset.carouselButton === "next" ? 1 : -1
+            const slides = button
+            .closest("[data-carousel]")
+            .querySelector("[data-slides]")
+
+            const activeSlide = slides.querySelector("[data-active]")
+            let newIndex = [...slides.children].indexOf(activeSlide) + offset
+            if (newIndex < 0) newIndex = slides.children.length - 1
+            if (newIndex >= slides.children.length) newIndex = 0
+
+            slides.children[newIndex].dataset.active = true
+            delete activeSlide.dataset.active
+        })
+        })
     </script>
 </body>
 </html>

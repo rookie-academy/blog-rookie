@@ -26,6 +26,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/carousel.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -173,7 +174,7 @@ fjs.parentNode.insertBefore(js, fjs);
     <figcaption class="text-center">
       翻車魚
     </figcaption>
-    <div class="text-center"><span>發表日期：Apr 25, 2022</span> 
+    <div class="text-center"><span>發表日期：2022年4月25日</span> 
     <span>🍿  1 min. read</span>
     <span class="fb-share-button" data-href=https://rookieacademy.org/%E5%AF%A6%E7%94%A8%E8%B3%87%E6%BA%90/2022-04-25-%E5%B1%AF%E9%96%80%E6%B2%B3%E9%82%A3%E8%A0%A2%E8%90%8C%E8%90%8C%E7%9A%84%E7%BF%BB%E8%BB%8A%E9%AD%9A/ ></span>
     </div>
@@ -280,6 +281,27 @@ fjs.parentNode.insertBefore(js, fjs);
         }
         });
     }
+    </script>
+    <script>
+        /* carousel */
+        const buttons = document.querySelectorAll("[data-carousel-button]")
+
+        buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const offset = button.dataset.carouselButton === "next" ? 1 : -1
+            const slides = button
+            .closest("[data-carousel]")
+            .querySelector("[data-slides]")
+
+            const activeSlide = slides.querySelector("[data-active]")
+            let newIndex = [...slides.children].indexOf(activeSlide) + offset
+            if (newIndex < 0) newIndex = slides.children.length - 1
+            if (newIndex >= slides.children.length) newIndex = 0
+
+            slides.children[newIndex].dataset.active = true
+            delete activeSlide.dataset.active
+        })
+        })
     </script>
 </body>
 </html>
