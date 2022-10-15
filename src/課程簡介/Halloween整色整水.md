@@ -6,7 +6,7 @@ tags:
      - class
      - ace
      - popular
-image: /assets/課程/2022年5月版本/秋季SEN-1.png
+image: /assets/課程/2022年5月版本/整色整水.png
 imageAlt: 2022秋季SEN特訓
 image1: /assets/課程/2022年5月版本/Halloween整色整水.jpg
 image1Alt: Halloween整色整水
