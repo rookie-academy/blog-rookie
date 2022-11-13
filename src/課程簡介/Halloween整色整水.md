@@ -13,6 +13,7 @@ image1Alt: Halloween整色整水
 description: 改善到專注力問題，為小朋友減壓，更學會放鬆和陶醉於創作的領域，加埋 Halloween 的節慶元素，就更加無敵喇，小朋友非常期待嚟玩啊！trick or treat
 leaflet: /assets/課程/2022年5月版本/Halloween整色整水.pdf
 canonical: https://rookieacademy.org/%E8%AA%B2%E7%A8%8B%E7%B0%A1%E4%BB%8B/Halloween%E6%95%B4%E8%89%B2%E6%95%B4%E6%B0%B4/
+eleventyExcludeFromCollections: true
 ---
 🎃🙃🧟‍♀️🎉😍🕷📚🐾🦂 新生免費(歡迎先參加指定課程)或早鳥半價優惠 😜🌸🐡👁😘🎃🗂
 

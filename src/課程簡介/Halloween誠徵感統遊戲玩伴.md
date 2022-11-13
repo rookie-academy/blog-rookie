@@ -13,6 +13,7 @@ image1Alt: Halloween誠徵感統遊戲玩伴
 description: 改善到孩子的前庭覺、本體覺及觸感的問題，而且加入 Halloween 節慶元素好特別，小朋友期待嚟玩啊！trick or treat
 leaflet: /assets/課程/2022年5月版本/Halloween誠徵感統遊戲玩伴.pdf
 canonical: https://rookieacademy.org/%E8%AA%B2%E7%A8%8B%E7%B0%A1%E4%BB%8B/Halloween%E8%AA%A0%E5%BE%B5%E6%84%9F%E7%B5%B1%E9%81%8A%E6%88%B2%E7%8E%A9%E4%BC%B4/
+eleventyExcludeFromCollections: true
 ---
 🎃🙃🧟‍♀️🎉😍🕷📚🐾🦂 新生免費(歡迎先參加指定課程)或早鳥半價優惠 😜🌸🐡👁😘🎃🗂
 

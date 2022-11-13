@@ -13,6 +13,7 @@ image1Alt: Halloween故事氹氹轉
 description: 趁西洋節日 Halloween 讓小朋友在輕鬆和愉快的環境下學習中文字生字，小朋友期待嚟玩啊！trick or treat
 leaflet: /assets/課程/2022年5月版本/Halloween故事氹氹轉.pdf
 canonical: https://rookieacademy.org/%E8%AA%B2%E7%A8%8B%E7%B0%A1%E4%BB%8B/Halloween%E6%95%85%E4%BA%8B%E6%B0%B9%E6%B0%B9%E8%BD%89/
+eleventyExcludeFromCollections: true
 ---
 
 🎃🙃🧟‍♀️🎉😍🕷📚🐾🦂 新生免費(歡迎先參加指定課程)或早鳥半價優惠 😜🌸🐡👁😘🎃🗂
