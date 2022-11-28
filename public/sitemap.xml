@@ -387,6 +387,13 @@
   </url>
 
   <url>
+    <loc>https://rookieacademy.org/ncs-chinese/</loc>
+    <lastmod>2022-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://rookieacademy.org/英文飛躍進步獎/</loc>
     <lastmod>2022-11-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -401,8 +408,29 @@
   </url>
 
   <url>
+    <loc>https://rookieacademy.org/english-fun-activities/</loc>
+    <lastmod>2022-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/免費聖誕活動工作紙/</loc>
+    <lastmod>2022-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://rookieacademy.org/聖誕狂歡大派對/</loc>
-    <lastmod>2022-11-27</lastmod>
+    <lastmod>2022-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/聖誕功輔託管班/</loc>
+    <lastmod>2022-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

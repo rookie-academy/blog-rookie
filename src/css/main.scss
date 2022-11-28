@@ -1193,7 +1193,9 @@ section.faq-section {
     color: #707070;
     margin-top: 3em;
     .punchline {
-        text-align: center;
+        p,ul {
+            text-align: left;
+        }
         img {
             width: 7em;
             
@@ -1201,6 +1203,7 @@ section.faq-section {
         h1 {
             font-size: var(--fs-600);
             margin-left: 1em;
+            text-align: center;
         }
         padding-bottom: 3em;
     }
