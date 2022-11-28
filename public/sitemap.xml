@@ -393,4 +393,18 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://rookieacademy.org/amazing-kid/</loc>
+    <lastmod>2022-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/聖誕狂歡大派對/</loc>
+    <lastmod>2022-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
