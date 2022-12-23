@@ -22,7 +22,7 @@ permalink: /ncs-chinese/
 
 🍁Please contact Ms Wu for details at 9618 5765 or WhatsApp us below link:
 
-[https://wa.me/85296185765] (https://wa.me/85296185765)
+[https://wa.me/85296185765](https://wa.me/85296185765)
 
 facebook:
 
