@@ -407,7 +407,6 @@ section.contact-us {
                 text-decoration: none;
                 color: white;
                 cursor: pointer;
-                overflow-wrap: break-word;
             }
             margin-bottom: 1.5em;
         }
@@ -509,7 +508,6 @@ section.working-with-us-section {
         text-decoration: none;
         color: white;
         font-size: var(--fs-400);
-        overflow-wrap: break-word;
     }
     .recent-news {
         h1 {
@@ -611,7 +609,6 @@ nav {
             padding: .5em;
             font-size: var(--fs-400);
             text-align: right;
-            overflow-wrap: break-word;
             &:hover {
                 font-weight: bold;
             }
@@ -694,7 +691,6 @@ nav {
                 color: #616161;
                 padding: .5em 1.5em;
                 font-size: var(--fs-300);
-                overflow-wrap: break-word;
                 &:hover {
                     background: none;
                     text-decoration: underline;
@@ -1484,7 +1480,6 @@ section.weather-policy-section, .ordinaryschool-en, .sen-en{
             font-weight: bold;
             color: var(--primary-color);
             text-decoration: none;
-            overflow-wrap: break-word;
             &:hover{
                 opacity: .7;
                 cursor: pointer;
@@ -1611,7 +1606,6 @@ img, picture {
     grid-area: title;
     a {
         text-decoration: none;
-        overflow-wrap: break-word;
     }
     color: inherit;
 }
@@ -1652,3 +1646,5 @@ section.ordinaryschool, section.sen, section.blog-snippet {
 }
 
 img[alt=上課花絮] { width: 200px; }
+
+

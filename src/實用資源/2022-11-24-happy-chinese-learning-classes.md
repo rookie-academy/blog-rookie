@@ -26,4 +26,4 @@ permalink: /ncs-chinese/
 
 facebook:
 
-[https://www.facebook.com/chelsea0811...](https://www.facebook.com/chelsea081185/posts/10166864811365573)
+[https://www.faceb.../10166864811365573](https://www.facebook.com/chelsea081185/posts/10166864811365573)

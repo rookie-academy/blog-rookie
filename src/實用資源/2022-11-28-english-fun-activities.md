@@ -53,7 +53,7 @@ permalink: /english-fun-activities/
 
 主流學科：
 
-[https://www.facebook.com/rookieacademyaaa/](https://www.facebook.com/rookieacademyaaa/)
+[https://www.faceb.../rookieacademyaaa/](https://www.facebook.com/rookieacademyaaa/)
 
 Rookie Academy 
 WhatsApp 96185765
@@ -64,4 +64,4 @@ WhatsApp 96185765
 
 facebook:
 
-[https://www.facebook.com/460232456269341/posts/...](https://www.facebook.com/rookieacademyaaa/posts/460232486269338)
+[https://www.faceb.../460232486269338](https://www.facebook.com/rookieacademyaaa/posts/460232486269338)
