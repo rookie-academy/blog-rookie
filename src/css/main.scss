@@ -1612,8 +1612,11 @@ img, picture {
 .snippet__meta {
     grid-area: meta;
 }
-.snippet__body {
-    grid-area: body;
+.snippet__body1 {
+    grid-area: body1;
+}
+.snippet__body2 {
+    grid-area: body2;
 }
 .snippet__image {
     grid-area: image;
