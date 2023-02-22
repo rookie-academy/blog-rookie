@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --primary-color: #dd1954;
   --secondary-color: #601028;
@@ -1179,8 +1180,11 @@ section.faq-section {
 }
 
 section.faq-section .punchline {
-  text-align: center;
   padding-bottom: 3em;
+}
+
+section.faq-section .punchline p, section.faq-section .punchline ul {
+  text-align: left;
 }
 
 section.faq-section .punchline img {
@@ -1190,6 +1194,7 @@ section.faq-section .punchline img {
 section.faq-section .punchline h1 {
   font-size: var(--fs-600);
   margin-left: 1em;
+  text-align: center;
 }
 
 section.faq-section h3 {
@@ -1626,8 +1631,12 @@ img, picture {
   grid-area: meta;
 }
 
-.snippet__body {
-  grid-area: body;
+.snippet__body1 {
+  grid-area: body1;
+}
+
+.snippet__body2 {
+  grid-area: body2;
 }
 
 .snippet__image {
@@ -1655,5 +1664,9 @@ section.ordinaryschool h1, section.sen h1, section.blog-snippet h1 {
   aspect-ratio: 4/3;
   -o-object-fit: scale-down;
      object-fit: scale-down;
+}
+
+img[alt=上課花絮] {
+  width: 200px;
 }
 /*# sourceMappingURL=main.css.map */
