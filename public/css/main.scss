@@ -1210,9 +1210,9 @@ section.faq-section {
         text-align: center;
     }
     ul.faq-list {
-        display: grid;
-        grid-template-columns: repeat(1,auto);
-        gap:.3em;
+        //display: grid;
+        //grid-template-columns: repeat(1,auto);
+        //gap: 3em;
 
         li {
             font-size: var(--fs-200);
@@ -1221,17 +1221,17 @@ section.faq-section {
             margin-bottom: 2em;
             text-indent: 3em;
             position: relative;
-            &:before {
-                content: '';
-                left: .1em;
-                top:.1em;
-                position: absolute;
-                width: 20px;
-                height: 20px;
-                background-image: url('/assets/fa-bullet-point.svg');
-                background-size: cover;
-                margin-right: 0.5em;
-            }
+            //&:before {
+            //    content: '';
+            //    left: .1em;
+            //    top:.1em;
+            //    position: absolute;
+            //    width: 20px;
+            //    height: 20px;
+            //    background-image: url('/assets/fa-bullet-point.svg');
+            //    background-size: cover;
+            //    margin-right: 0.5em;
+            //}
 
         }
     }
