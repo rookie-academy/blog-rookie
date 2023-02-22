@@ -1198,7 +1198,7 @@ section.faq-section .punchline h1 {
 }
 
 section.faq-section h3 {
-  font-size: var(--fs-500);
+  font-size: var(--fs-300);
   text-align: center;
 }
 
@@ -1207,15 +1207,15 @@ section.faq-section ul.faq-list {
   display: grid;
   -ms-grid-columns: (auto)[1];
       grid-template-columns: repeat(1, auto);
-  gap: 3em;
+  gap: .3em;
 }
 
 section.faq-section ul.faq-list li {
-  font-size: var(--fs-400);
+  font-size: var(--fs-200);
   margin: 0 1em;
   letter-spacing: .03em;
   margin-bottom: 2em;
-  text-indent: 1.5em;
+  text-indent: 3em;
   position: relative;
 }
 
