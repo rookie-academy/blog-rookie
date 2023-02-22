@@ -156,7 +156,14 @@
     </div>
 </header>
     <main>
-        <section class="faq-section" oncontextmenu="return false" onselectstart="return false"  öndragstart="return false">
+        <style>
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+</style>
+<section class="faq-section unselectable">
     <div class="container">
         <div class="punchline">
             <img src="/assets/faq.svg" alt="faq logo">
@@ -172,7 +179,7 @@
                 <li>藥物副作用(如有)</li>
             <ol>
         </div>
-        <h4 style="text-align:right">截至2022年8月版本</h4>
+        <h4 style="text-align:right">截至2022年8月版本 版權所有</h4>
         <h3>敬請注意：</h3>
         <ul class="faq-list">
             <li>1.一經報名，申請者繳交的所有費用，包括：學費、評估費、測試費、行政費、雜費等，均不會發還，不可隨意要求調堂及補堂。優惠課堂，不設退款、補堂及調堂。如需測試報告，請額外繳交費用，預時約20-30天，一經收取，不能退回。本人(即申請人)同意及遵守共四頁申請表上的「報名須知」、「聲明」、「學生須知」及收據上的所有內容，而且知悉、了解及願意遵守本中心的各項課程細則。</li>
@@ -288,25 +295,6 @@
     </div>
     </div>
 </section>
-<script>
-var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-
-if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-
-function mischandler(){
-return false;
-}
-
-function mousehandler(e){
-var myevent = (isNS) ? e : event;
-var eventbutton = (isNS) ? myevent.which : myevent.button;
-if((eventbutton==2)||(eventbutton==3)) return false;
-}
-document.oncontextmenu = mischandler;
-document.onmousedown = mousehandler;
-document.onmouseup = mousehandler;
-
-</script>
     </main>
     <div class="footer">
     <div class="container">
