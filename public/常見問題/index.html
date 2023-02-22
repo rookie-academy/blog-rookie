@@ -156,16 +156,7 @@
     </div>
 </header>
     <main>
-        <style>
-    .unselectable {
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    }
-</style>
-<section class="faq-section unselectable">
+        <section class="faq-section" oncontextmenu="return false" onselectstart="return false"  öndragstart="return false">
     <div class="container">
         <div class="punchline">
             <img src="/assets/faq.svg" alt="faq logo">
@@ -297,7 +288,25 @@
     </div>
     </div>
 </section>
+<script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
 
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+
+function mischandler(){
+return false;
+}
+
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+
+</script>
     </main>
     <div class="footer">
     <div class="container">
