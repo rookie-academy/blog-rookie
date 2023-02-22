@@ -711,7 +711,7 @@ nav li a:hover {
         grid-template-rows: -webkit-min-content -webkit-min-content 1fr;
         grid-template-rows: min-content min-content 1fr;
     gap: 1em 1em;
-        grid-template-areas: "title image" "meta image" "body image";
+        grid-template-areas: "title image" "meta image" "body1 image" "body2 image";
     padding: 1em;
     -webkit-box-shadow: #d3d3d3 .3em .3em 1em;
             box-shadow: #d3d3d3 .3em .3em 1em;
