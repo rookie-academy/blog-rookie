@@ -1354,9 +1354,6 @@ section.programmes-list, section.blog-primary, section.engish-learning-scope {
     color: white;
     text-align: center;
     padding: 3em;
-    img {
-        width: 7em;
-    }
     h1 {
         font-size: var(--fs-600);
     }
@@ -1364,6 +1361,12 @@ section.programmes-list, section.blog-primary, section.engish-learning-scope {
         fill: white;
         width: 7em;
         margin-top: 1em;
+    }
+}
+
+.full-width {
+    img {
+        width: 7em;
     }
 }
 
@@ -1650,3 +1653,5 @@ section.ordinaryschool, section.sen, section.blog-snippet {
 }
 
 img[alt=上課花絮] { width: 200px; }
+
+.sen-trainee{ margin: 2em 3em; }

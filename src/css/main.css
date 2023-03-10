@@ -1333,10 +1333,6 @@ section.programmes-list, section.blog-primary, section.engish-learning-scope {
   padding: 3em;
 }
 
-section.programmes-list img, section.blog-primary img, section.engish-learning-scope img {
-  width: 7em;
-}
-
 section.programmes-list h1, section.blog-primary h1, section.engish-learning-scope h1 {
   font-size: var(--fs-600);
 }
@@ -1345,6 +1341,10 @@ section.programmes-list svg, section.blog-primary svg, section.engish-learning-s
   fill: white;
   width: 7em;
   margin-top: 1em;
+}
+
+.full-width img {
+  width: 7em;
 }
 
 .more-info {
@@ -1648,5 +1648,9 @@ section.ordinaryschool h1, section.sen h1, section.blog-snippet h1 {
 
 img[alt=上課花絮] {
   width: 200px;
+}
+
+.sen-trainee {
+  margin: 2em 3em;
 }
 /*# sourceMappingURL=main.css.map */
