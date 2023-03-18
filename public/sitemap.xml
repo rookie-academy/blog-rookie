@@ -408,6 +408,13 @@
   </url>
 
   <url>
+    <loc>https://rookieacademy.org/2022-12-20-post-1/</loc>
+    <lastmod>2022-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://rookieacademy.org/english-fun-activities/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -430,13 +437,6 @@
 
   <url>
     <loc>https://rookieacademy.org/聖誕功輔託管班/</loc>
-    <lastmod>2022-11-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/2022-12-20-post-1/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -564,6 +564,55 @@
   <url>
     <loc>https://rookieacademy.org/關愛社會/</loc>
     <lastmod>2023-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/my-fifth-news/</loc>
+    <lastmod>2023-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/post20230316/</loc>
+    <lastmod>2023-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/my-fourth-news/</loc>
+    <lastmod>2023-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/my-first-news/</loc>
+    <lastmod>2023-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/my-second-news/</loc>
+    <lastmod>2023-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/my-third-news/</loc>
+    <lastmod>2023-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/最新消息/</loc>
+    <lastmod>2023-03-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

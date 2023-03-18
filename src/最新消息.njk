@@ -1,0 +1,27 @@
+---
+title: Rookie Academy | 最新消息
+layout: base.njk
+description: Rookie Academy 為閣下提供最新相關消息。
+canonical: https://rookieacademy.org/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/
+keywords: 
+---
+<section class="blog-primary">
+    <div class="container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 48">
+            <path id="Icon_awesome-newspaper" data-name="Icon awesome-newspaper" d="M69,4.5H11a3,3,0,0,0-3,3v1H3a3,3,0,0,0-3,3v34a7,7,0,0,0,7,7H66a6,6,0,0,0,6-6V7.5A3,3,0,0,0,69,4.5ZM7,46.5a1,1,0,0,1-1-1v-31H8v31A1,1,0,0,1,7,46.5Zm29.5-2h-19A1.5,1.5,0,0,1,16,43V42a1.5,1.5,0,0,1,1.5-1.5h19A1.5,1.5,0,0,1,38,42v1A1.5,1.5,0,0,1,36.5,44.5Zm26,0h-19A1.5,1.5,0,0,1,42,43V42a1.5,1.5,0,0,1,1.5-1.5h19A1.5,1.5,0,0,1,64,42v1A1.5,1.5,0,0,1,62.5,44.5Zm-26-12h-19A1.5,1.5,0,0,1,16,31V30a1.5,1.5,0,0,1,1.5-1.5h19A1.5,1.5,0,0,1,38,30v1A1.5,1.5,0,0,1,36.5,32.5Zm26,0h-19A1.5,1.5,0,0,1,42,31V30a1.5,1.5,0,0,1,1.5-1.5h19A1.5,1.5,0,0,1,64,30v1A1.5,1.5,0,0,1,62.5,32.5Zm0-12h-45A1.5,1.5,0,0,1,16,19V14a1.5,1.5,0,0,1,1.5-1.5h45A1.5,1.5,0,0,1,64,14v5A1.5,1.5,0,0,1,62.5,20.5Z" transform="translate(0 -4.5)"/>
+        </svg>
+        <h1>Rookie Academy 最新通告及推廣優惠</h1>
+    </div>
+    <p></p>
+    <p></p>
+</section>
+<section class="blog-snippet">
+    <div class="container">
+        <h1></h1>
+        <ul role="list">
+            {% for post in collections.news | reverse %}
+                {% include "article-snippet.njk" %}
+            {% endfor %}
+        <ul>
+    </div>
+</section>

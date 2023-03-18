@@ -7,7 +7,6 @@ author: ROOKIE ACADEMY TEAM
 date: 2022-11-28
 tags:
   - post
-  - featured
 image: /assets/uploads/english-fun-activities.jpg
 imageAlt: 增強英語聆聽能力
 permalink: /english-fun-activities/

@@ -7,7 +7,6 @@ author: ROOKIE ACADEMY TEAM
 date: 2022-11-24
 tags:
   - post
-  - featured
 image: /assets/uploads/ncs-chiniese.jpg
 imageAlt: please come and learn chinese with us
 permalink: /ncs-chinese/
