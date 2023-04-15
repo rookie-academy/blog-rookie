@@ -652,4 +652,11 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://rookieacademy.org/廣州教育活動分享/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
