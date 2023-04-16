@@ -899,7 +899,7 @@ nav {
         }
     }
 
-    section.faq-section , section.weather-policy-section {
+    section.faq-section , section.weather-policy-section , section.gz-section {
         .container {
             width: 1080px;
         }
@@ -1188,7 +1188,7 @@ section.join-us-section-brown {
     }
 }
 
-section.faq-section {
+section.faq-section , section.gz-section{
     color: #707070;
     margin-top: 3em;
     .punchline {
