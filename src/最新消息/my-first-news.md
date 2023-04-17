@@ -8,7 +8,7 @@ author: ROOKIE ACADEMY TEAM
 date: 2023-03-18
 tags:
   - news
-image: https://scontent.fhkg11-1.fna.fbcdn.net/v/t39.30808-6/292829207_579075320465655_1975907933683203977_n.jpg?stp=dst-jpg_p640x640&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=IyIYqYaxOrcAX9iVQhd&_nc_ht=scontent.fhkg11-1.fna&oh=00_AfBhmOZCThvjlU0nCRiLINlg0EoWR-jI-HhHfGwWB6OjGQ&oe=641A65DE
+image: /assets/uploads/postl.jpg
 imageAlt: 
 permalink: /my-first-news/
 ---
