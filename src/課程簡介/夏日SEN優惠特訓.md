@@ -12,6 +12,7 @@ image1Alt: 夏日SEN優惠特訓
 description: 歡迎參加2022年暑期SEN訓練班，有興趣的同學請盡快向我們申請學位，先到先得。2022年6月30日前報讀仲有95折，限首50名成功報讀的學生。
 leaflet: /assets/課程/2022年5月版本/夏日SEN優惠特訓.pdf
 canonical: https://rookieacademy.org/%E8%AA%B2%E7%A8%8B%E7%B0%A1%E4%BB%8B/%E6%95%B8%E5%AD%B8%E6%8F%90%E5%8D%87%E8%AA%B2%E7%A8%8B/
+eleventyExcludeFromCollections: true
 ---
 
 🥰歡迎參加2022年☀️ #暑期SEN訓練班💖，有興趣的同學請盡快向我們申請學位喇😉，先到先得。2022年6月30日前報讀仲有9️⃣5️⃣折，限首50名成功報讀的學生。
