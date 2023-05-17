@@ -947,7 +947,6 @@
   </url>
 
   <url>
-<<<<<<< Updated upstream
     <loc>https://rookieacademy.org/post20230506-1/</loc>
     <lastmod>2023-05-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -970,19 +969,26 @@
 
   <url>
     <loc>https://rookieacademy.org/post20230509-1/</loc>
-=======
-    <loc>https://rookieacademy.org/post20230509/</loc>
->>>>>>> Stashed changes
     <lastmod>2023-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-<<<<<<< Updated upstream
     <loc>https://rookieacademy.org/post20230509-2/</loc>
     <lastmod>2023-05-09</lastmod>
-=======
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/post20230509/</loc>
+    <lastmod>2023-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://rookieacademy.org/post20230514-1/</loc>
     <lastmod>2023-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -992,7 +998,20 @@
   <url>
     <loc>https://rookieacademy.org/post20230514/</loc>
     <lastmod>2023-05-14</lastmod>
->>>>>>> Stashed changes
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/post20230515-1/</loc>
+    <lastmod>2023-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/post20230517-1/</loc>
+    <lastmod>2023-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
