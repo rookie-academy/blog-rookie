@@ -499,20 +499,6 @@
   </url>
 
   <url>
-    <loc>https://rookieacademy.org/2022-02-08-post/</loc>
-    <lastmod>2023-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/2022-02-12-post/</loc>
-    <lastmod>2023-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://rookieacademy.org/2022-02-23-1-post/</loc>
     <lastmod>2023-02-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -527,14 +513,28 @@
   </url>
 
   <url>
-    <loc>https://rookieacademy.org/2022-03-10-post-1/</loc>
-    <lastmod>2023-03-10</lastmod>
+    <loc>https://rookieacademy.org/2022-02-08-post/</loc>
+    <lastmod>2023-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/2022-02-12-post/</loc>
+    <lastmod>2023-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://rookieacademy.org/2022-03-10-post-2/</loc>
+    <lastmod>2023-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/2022-03-10-post-1/</loc>
     <lastmod>2023-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
