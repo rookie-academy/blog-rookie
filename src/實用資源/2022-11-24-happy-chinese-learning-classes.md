@@ -1,7 +1,8 @@
 ---
 title: Happy learning Chinese Classes
 canonical: https://rookieacademy.org/ncs-chinese/
-description: 【Happy learing Chinese Classes】target non-Chinese children aged 3-11 with 4 students maximium per teacher. Please contact Ms Wu for details.
+description: Led by experienced teachers, our "Happy Learning Chinese Classes" offer a wide range of activities, including interactive games, songs, stories, and cultural experiences. Our goal is to make the learning process engaging and meaningful. For more information and enrollment details, please reach out to Ms. Wu, who will be happy to assist you. Give your child the opportunity to embark on an exciting journey of learning Chinese while having fun in our "Happy Learning Chinese Classes."
+Text: Introducing "Happy Learning Chinese Classes," a specialized program designed for non-Chinese children aged 3-11. Our classes provide an enjoyable and immersive environment for children to learn the Chinese language and culture. With a maximum of four students per teacher, we ensure personalized attention and interactive learning experiences. Whether your child is a beginner or has some prior knowledge of Chinese, our classes cater to various proficiency levels.
 keywords: Chinese,vocabularies,character,recognition,personal,good foundation in Chinese
 author: ROOKIE ACADEMY TEAM
 date: 2022-11-24
