@@ -1661,7 +1661,12 @@ img[alt=上課花絮] { width: 200px; }
     text-decoration: none;
     font-size: var(--fs-500);
     font-weight: bold;
-    color: rgb(64, 61, 61);
+    color: white;
     background: var(--primary-color);
     padding: .3em .9em;
+    padding: .6em 1.8em; 
+    line-height: 2; 
+    margin: 1em 2em; 
+    margin-top: 1.8em; 
+    border-radius: 50px; 
 }
