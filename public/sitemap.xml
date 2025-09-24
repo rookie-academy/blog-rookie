@@ -177,106 +177,8 @@
   </url>
 
   <url>
-    <loc>https://rookieacademy.org/</loc>
-    <lastmod>2022-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/實用資源/</loc>
-    <lastmod>2022-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/留言給我們/</loc>
-    <lastmod>2022-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/常見問題/</loc>
-    <lastmod>2022-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/網站地圖/</loc>
-    <lastmod>2022-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/與我們合作/</loc>
-    <lastmod>2022-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/課程簡介/</loc>
-    <lastmod>2022-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/admin/</loc>
-    <lastmod>2022-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://rookieacademy.org/實用資源/2022-04-21-小測試：自閉症兒童特徵/</loc>
     <lastmod>2022-04-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/en/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/en/frequent-asked-question/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/en/join-us/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/en/list-of-programs/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/en/sitemap/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/en/work-with-us/</loc>
-    <lastmod>2022-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -317,13 +219,6 @@
   </url>
 
   <url>
-    <loc>https://rookieacademy.org/英文學習範疇/</loc>
-    <lastmod>2022-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://rookieacademy.org/實用資源/2022-05-04-正向管教知多啲/</loc>
     <lastmod>2022-05-04</lastmod>
     <changefreq>monthly</changefreq>
@@ -354,6 +249,111 @@
   <url>
     <loc>https://rookieacademy.org/ADD-ADHD/</loc>
     <lastmod>2022-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/admin/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/en/frequent-asked-question/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/en/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/en/join-us/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/en/list-of-programs/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/en/sitemap/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/en/work-with-us/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/實用資源/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/常見問題/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/留言給我們/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/網站地圖/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/與我們合作/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/英文學習範疇/</loc>
+    <lastmod>2022-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/課程簡介/</loc>
+    <lastmod>2022-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -478,13 +478,6 @@
   </url>
 
   <url>
-    <loc>https://rookieacademy.org/家長的評語/</loc>
-    <lastmod>2022-12-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://rookieacademy.org/2022-12-27-post/</loc>
     <lastmod>2022-12-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -527,6 +520,13 @@
   </url>
 
   <url>
+    <loc>https://rookieacademy.org/家長的評語/</loc>
+    <lastmod>2023-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://rookieacademy.org/2022-03-10-post-2/</loc>
     <lastmod>2023-03-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -535,13 +535,6 @@
 
   <url>
     <loc>https://rookieacademy.org/2022-03-10-post-1/</loc>
-    <lastmod>2023-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/關愛社會/</loc>
     <lastmod>2023-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -598,13 +591,6 @@
 
   <url>
     <loc>https://rookieacademy.org/post20230318/</loc>
-    <lastmod>2023-03-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://rookieacademy.org/最新消息/</loc>
     <lastmod>2023-03-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -737,6 +723,20 @@
   </url>
 
   <url>
+    <loc>https://rookieacademy.org/最新消息/</loc>
+    <lastmod>2023-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rookieacademy.org/關愛社會/</loc>
+    <lastmod>2023-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://rookieacademy.org/post20230411-2/</loc>
     <lastmod>2023-04-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -773,7 +773,7 @@
 
   <url>
     <loc>https://rookieacademy.org/廣州教育活動分享/</loc>
-    <lastmod>2023-04-15</lastmod>
+    <lastmod>2023-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
