@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "node node_modules/@11ty/eleventy/cmd.cjs"
   },
   "repository": {
     "type": "git",
